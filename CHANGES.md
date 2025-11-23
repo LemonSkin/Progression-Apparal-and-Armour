@@ -73,7 +73,7 @@ TBA
 * Protective clothing now requires Rustic tailoring as a prerequisite
 ### Fixes
 * Fixed assorted naming capitalisations and consistencies
-### WIP: Stat Rebalances
+### Stat Rebalances
 Clothes and armour costs and stats are pretty out of whack with the vanilla game. I aim to make these more aligned to vanilla values to provide a proper sense of progression.
 
 Generally, fewer clothes count for nudity - hats, helmets, gloves, boots, etc no longer count as clothing.
@@ -84,11 +84,19 @@ Armour and headgear has been balanced using Plate armor from vanilla and various
 
 Protective clothing provides additional warmth and is fast and cheap to make, but does not provide much in the way of protection. The kettle helm is more range-focussed, while the flat-top and nasal helms are melee focused.
 
-Chain armour is lighter and more maneauverable than plate armour, but provides slightly less protection and takes a long time to craft. The chain coifs and kettle helm are range-focused, while the remaining helms are melee focused.
+Chain armour is lighter and more maneauverable than plate armour, but provides slightly less protection and takes a long time to craft. 
+
+The Hauberk makes up the base for the armour on the middle layer as follows:
+    * Light Plate Armour has been nerfed, now provides 0.85 armour multiplier and -0.4 movespeed.
+    * Hauberk + Heavy Hauberk < VE Light Plate Armour
+    * Hauberk + Breast Plate ~= VE Light Plate Armour, provides slightly more armour but is slightly less maneauverable
+    * Hauberk + Brigandine ~= Plate Armour
+    * Hauberk + Full Plate ~= VE Heavy Plate Armour
 
 Plate armours have been rebalanced, but the various helmets are mostly equivalent and are there to provide flavour to your armies.
 
-Gilded and Adorned counterparts provide equivalent stats but also include a social impact buff (dependent on armour tier) and take slightly longer to make. Adorned counterparts also have a slight buff to cold insulation.
+Adorned gear takes slightly longer to make and has a small social impact buff, as well as the existing cold resistance.
+Gilded gear takes longer to make, but has a greater social impact buff.
 
 Lindwurm armour is rare and quite difficult to make, however it is very protective, insulating and light. It offers the protection of full plate armour, but the weight and maneuverability of light plate armor.
 
@@ -146,8 +154,13 @@ Shields have been balanced and now require more research. Round shield is unlock
     * Rustic clothing > Protective clothing > Leather armor, Chainmail armor
     * VE Leather Armor is less protective than Hauberk but has no speed malus and requires Leather armor research
     * VE Heavy leather armor is less protective than Breast plate but has smaller speed penalty and requires Leather armor research
-* Renamed VE Padded armor to Cloth armor to avoid overlap
+* Renamed VE Padded armor to Light padded armor to avoid overlap, added crafting level requirement
+* Renamed VE Padded helmet to Light padded helmet, increased work amount required, reduced crafting level requirement
+* Rebalanced Leather armor and helmet
+* Rebalanced Heavy leather armor and helmet
+* Increased level requirement for Heavy Plate Armor and Helmet to 10
 * TODO: Shields
+* TODO: Figure out Cap MO overlap
 
 ## TODO: Vanilla Apparel Expanded
 * Moved the following to Rustic clothing:
@@ -182,11 +195,14 @@ Shields have been balanced and now require more research. Round shield is unlock
 * Leather tanning research now required Rustic clothing prerequisite
 
 ## TODO: Vanilla Armour Expanded + Medieval Overhaul
-* Chainmail moved to MO Chainmail research
-* Figure out overlap for Gambeson and Quilted vest
-* MO Breast Plate is slightly worse than VE Light Plate Armor, but has better movespeed
-* MO Brigandine has slightly more armour than vanilla Plate Armo, but has a dodge malus
-* Full Plate (and variants) have slightly more armor than VE Heavy Plate Armor
+* Rebalanced the following:
+    * Light Plate Armor
+    * Chainmail, also moved to MO Chain armor research and renamed Light Hauberk
+    * Plate Helmet
+    * Plate Shoulderpads, MO Breast plate and Brigandine no longer provide shoulder coverage and have their movement speed malus reduced to compensate
+* Removed VE Chestplate in favour of MO Breast Plate
+* Removed Plate Gloves and Plate Boots in favour of MO
+* TODO: Figure out overlap for Gambeson and Quilted vest
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO
