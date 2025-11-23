@@ -155,7 +155,7 @@ Shields have been balanced and now require more research. Round shield is unlock
     * VE Leather Armor is less protective than Hauberk but has no speed malus and requires Leather armor research
     * VE Heavy leather armor is less protective than Breast plate but has smaller speed penalty and requires Leather armor research
 * Renamed VE Padded armor to Light padded armor to avoid overlap, added crafting level requirement
-* Renamed VE Padded helmet to Light padded helmet, increased work amount required, reduced crafting level requirement
+* Renamed VE Padded helmet to Light padded helm, increased work amount required, reduced crafting level requirement
 * Rebalanced Leather armor and helmet
 * Rebalanced Heavy leather armor and helmet
 * Increased level requirement for Heavy Plate Armor and Helmet to 10

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Medieval Overhaul Stuff -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>0.85</StuffEffectMultiplierArmor>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+          <value>
+            <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/equippedStatOffsets/MoveSpeed</xpath>
+          <value>
+            <MoveSpeed>-0.4</MoveSpeed>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/recipeMaker/recipeUsers</xpath>
+          <order>Append</order>
+          <value>
+            <li>DankPyon_Anvil</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/label</xpath>
+          <value>
+            <label>light hauberk</label>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/recipeMaker/skillRequirements/Crafting</xpath>
+          <value>
+            <Crafting>6</Crafting>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/recipeMaker/researchPrerequisite</xpath>
+          <value>
+            <researchPrerequisite>DankPyon_ChainArmor</researchPrerequisite>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/recipeMaker/skillRequirements/Crafting</xpath>
+          <value>
+            <Crafting>6</Crafting>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/statBases/WorkToMake</xpath>
+          <value>
+            <WorkToMake>18000</WorkToMake>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/statBases/Mass</xpath>
+          <value>
+            <Mass>2</Mass>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/statBases/StuffEffectMultiplierArmor</xpath>
+          <value>
+            <StuffEffectMultiplierArmor>0.25</StuffEffectMultiplierArmor>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/statBases/EquipDelay</xpath>
+          <value>
+            <EquipDelay>5</EquipDelay>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/recipeMaker/recipeUsers</xpath>
+          <order>Append</order>
+          <value>
+            <li>DankPyon_Anvil</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateHelmet"]/equippedStatOffsets/ShootingAccuracyPawn</xpath>
+          <value>
+            <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateHelmet"]/recipeMaker/recipeUsers</xpath>
+          <order>Append</order>
+          <value>
+            <li>DankPyon_Anvil</li>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]/statBases/EquipDelay</xpath>
+          <value>
+            <EquipDelay>4</EquipDelay>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]/recipeMaker/recipeUsers</xpath>
+          <order>Append</order>
+          <value>
+            <li>DankPyon_Anvil</li>
+          </value>
+        </li>
+        <li Class="PatchOperationAdd">
+          <xpath>/Defs</xpath>
+          <value>
+            <ReplaceLib.ReplacerDef>
+              <defName>VARME_MOArmor</defName>
+              <replacers>
+                <li>
+                  <replace>VAE_Apparel_Chestplate</replace>
+                  <with>DankPyon_Apparel_Breast_Plate</with>
+                </li>
+                <li>
+                  <replace>VAE_Handwear_PlateGloves</replace>
+                  <with>DankPyon_Handwear_GlovesPlate</with>
+                </li>
+                <li>
+                  <replace>VAE_Footwear_PlateBoots</replace>
+                  <with>DankPyon_Footwear_BootsPlate</with>
+                </li>
+              </replacers>
+            </ReplaceLib.ReplacerDef>
+          </value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

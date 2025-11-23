@@ -1,6 +1,7 @@
 <loadFolders>
   <v1.6>
     <li IfModActive="VanillaExpanded.VAPPE">1.6/Vanilla Apparel Expanded</li>
+    <li IfModActive="VanillaExpanded.VARME">1.6/Vanilla Armor Expanded</li>
     <li IfModActive="OskarPotocki.VFE.Medieval2">1.6/VFE Medieval 2</li>
     <li IfModActive="DankPyon.Medieval.Overhaul">1.6/Medieval Overhaul</li>
     <li IfModActive="ludeon.rimworld.biotech">1.6/Biotech</li>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Armor Expanded</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Brigandine"]/apparel/bodyPartGroups/li[.=Shoulders]</xpath>
+        </li>
+        <li Class="PatchOperationRemove">
+          <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Breast_Plate"]/apparel/bodyPartGroups/li[.=Shoulders]</xpath>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>
