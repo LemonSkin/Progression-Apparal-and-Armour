@@ -194,6 +194,23 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * VE Gambeson removed in favour of MO Gambeson, rebalanced and requires MO Leather tanning research
 * TODO: VE Leather Tanning research removed
 
+## TODO:
+* Add Fae gear to its own research ()
+    * Add smithing pre-requisite to Faehelm
+* Roo's Minotaur Xenotype: 
+    * Add Cowbell to Fae research
+* Foo's Satyr and Faun Xenotypes Expanded
+    * Add gear to Fae research, Faehelm should have smithing prereq
+* Vanilla Genentics Expanded: 
+    * Muffalo pelt rug, Wolf rug, Huge bear rug, Huge Bearcat Rug
+* Fix MO rugs still appearing. Why???
+* Samurai Faction
+    * Headband (maybe nerf too)
+* ReSplice: Charmweavers
+    * Slave outfit
+* Victorian Era Apparels
+    * Own research, definitely needs balancing and de-duplicating
+
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO
 * Fixed MO rugs appearing as bills without prior research research
