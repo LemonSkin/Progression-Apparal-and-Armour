@@ -203,13 +203,20 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
     * Add gear to Fae research, Faehelm should have smithing prereq
 * Vanilla Genentics Expanded: 
     * Muffalo pelt rug, Wolf rug, Huge bear rug, Huge Bearcat Rug
-* Fix MO rugs still appearing. Why???
 * Samurai Faction
     * Headband (maybe nerf too)
 * ReSplice: Charmweavers
     * Slave outfit
 * Victorian Era Apparels
     * Own research, definitely needs balancing and de-duplicating
+* Vanilla Ideology Expanded - Hats and Rags
+    * Military cap, horse mask, commissar hat
+* Tacticool Ops
+    * Bandana masks
+* Det's Xenotypes - Avaloi
+    * Trilense glasses
+* Biomes! Fossils
+    * Plushes
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO

@@ -6,13 +6,7 @@
   <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
-  <modDependencies>
-    <li>
-      <packageId>ferny.ReplaceLib</packageId>
-      <displayName>ReplaceLib</displayName>
-      <steamWorkshopUrl>steam://url/CommunityFilePage/2329011599</steamWorkshopUrl>
-    </li>
-  </modDependencies>
+  <modDependencies></modDependencies>
   <description>Tweaks research requirements and de-duplicates apparel and armour from various mods</description>
   <loadAfter>
     <li>DankPyon.Medieval.Overhaul</li>

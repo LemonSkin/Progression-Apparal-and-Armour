@@ -182,50 +182,46 @@
       <ShootingAccuracyPawn>-0.5</ShootingAccuracyPawn>
     </value>
   </Operation>
-  <!-- Replacers -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>/Defs</xpath>
-    <value>
-      <ReplaceLib.ReplacerDef>
-        <defName>VARME_MOArmor</defName>
-        <replacers>
-          <li>
-            <replace>VAE_Apparel_Chestplate</replace>
-            <with>DankPyon_Apparel_Breast_Plate</with>
-          </li>
-          <li>
-            <replace>VAE_Handwear_PlateGloves</replace>
-            <with>DankPyon_Handwear_GlovesPlate</with>
-          </li>
-          <li>
-            <replace>VAE_Footwear_PlateBoots</replace>
-            <with>DankPyon_Footwear_BootsPlate</with>
-          </li>
-          <li>
-            <replace>VAE_Apparel_QuiltedVest</replace>
-            <with>DankPyon_Apparel_Leather_Tunic</with>
-          </li>
-          <li>
-            <replace>VAE_Apparel_Gambeson</replace>
-            <with>Dankpyon_Apparel_Gambeson</with>
-          </li>
-        </replacers>
-      </ReplaceLib.ReplacerDef>
-    </value>
+  <!-- Remove tings -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Chestplate"]</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_QuiltedVest"]/recipeMaker/researchPrerequisite</xpath>
-    <value>
-      <researchPrerequisite>DankPyon_LeatherTanning</researchPrerequisite>
-    </value>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VAE_Handwear_PlateGloves"]</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_Gambeson"]/recipeMaker/researchPrerequisite</xpath>
-    <value>
-      <researchPrerequisite>DankPyon_LeatherTanning</researchPrerequisite>
-    </value>
+  <!-- Fix VARME Royalty patch before removing VARME plate boots -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Full Armor - Hands and Feet</li>
+      <li>Combat Extended</li>
+    </mods>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>/Defs/PawnKindDef[@Name="ImperialFighterBase"]/apparelRequired/li[.="VAE_Footwear_PlateBoots"]</xpath>
+      <value>
+        <li>DankPyon_Footwear_BootsPlate</li>
+      </value>
+    </nomatch>
   </Operation>
-  <!-- <Operation Class="PatchOperationRemove">
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_QuiltedVest"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Gambeson"]</xpath>
+  </Operation>
+  <!-- Rewire military clothing if it exists and then delete VAE LeatherTanning research -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Apparel Expanded</li>
+    </mods>
+    <nomatch Class="PatchOperationRemove">
+      <xpath>Defs/ResearchProjectDef[defName="VAE_MilitaryClothing"]/prerequisites</xpath>
+      <success>Always</success>
+    </nomatch>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
     <xpath>Defs/ResearchProjectDef[defName="VAE_LeatherTanning"]</xpath>
-  </Operation> -->
+  </Operation>
 </Patch>
