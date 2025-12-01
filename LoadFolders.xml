@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
   <v1.6>
+    <li IfModActive="tug.SatyrFaun.Expanded">1.6/Roo's Satyr and Faun Xenotypes Expanded/Core</li>
     <li IfModActive="Gunmar.VictorianEraApparels">1.6/Victorian Era Apparels!/Core</li>
     <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul"
       >1.6/Vanilla Armor Expanded/Medieval Overhaul</li

@@ -25,7 +25,7 @@
         defName="Gunmar_Apparel_Shako_Hat" or
         defName="Gunmar_Apparel_Glasses" or
         defName="Gunmar_Apparel_Monocle" or
-        defName="Gunmar_Apparel_Monocle" or
+        defName="Gunmar_Apparel_Monocle"
         ]/recipeMaker</xpath>
     <value>
       <researchPrerequisites>
