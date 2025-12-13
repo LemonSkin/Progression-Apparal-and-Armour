@@ -210,8 +210,14 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Made Paleontology a research prerequisite to craft the plushies
 
 ## Tacticool Ops
-* Added ComplexClothing requirement to face bandanas
-* TODO: Maybe move all this gear to its own research
+* Gear moved to new research, Tacticool Gear, requiring ComplexClothing as a pre-requisite
+* Muscle shirt now equivalent to Vanilla Apparel Expanded Tank top (TODO: Change in some way)
+* Hawaiian shirt now more like a jacket for heat but provides much less armour
+* Aviators now closer to Vanilla Apparel Expanded Sunglasses
+* Ballistic glasses have been massively nerfed but still provide decent eye protection
+* Face bandanas are now just Industrial-era war veils with some minor stat offsets
+* Balaclavas now cover the FullHead instead of only Jaw, have stats closer to Tuques but provide more warmth and a +10% pain shock threshold
+* Mesh cap now equivalent to Vanilla Apparel Expanded Baseball Cap (TODO: Change in some way)
 
 ## Vanilla Ideology Expanded - Hats and Rags
 * Added ComplexClothing requirement to: Commissar hat, military cap, and horse mask
@@ -227,6 +233,8 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
     * Slave outfit
 * Det's Xenotypes - Avaloi
     * Trilense glasses
+* Vanilla Factions Expanded - Classical
+    * Balance pass
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO
