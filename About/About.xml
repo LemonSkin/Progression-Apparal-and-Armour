@@ -10,11 +10,11 @@
   <description>Tweaks research requirements and de-duplicates attire from various mods.</description>
   <loadAfter>
     <li>Ludeon.Rimworld</li>
-		<li>Ludeon.Rimworld.Royalty</li>
-		<li>Ludeon.Rimworld.Ideology</li>
-		<li>Ludeon.Rimworld.Biotech</li>
-		<li>Ludeon.Rimworld.Anomaly</li>
-		<li>Ludeon.Rimworld.Odyssey</li>
+    <li>Ludeon.Rimworld.Royalty</li>
+    <li>Ludeon.Rimworld.Ideology</li>
+    <li>Ludeon.Rimworld.Biotech</li>
+    <li>Ludeon.Rimworld.Anomaly</li>
+    <li>Ludeon.Rimworld.Odyssey</li>
     <li>DankPyon.Medieval.Overhaul</li>
     <li>OskarPotocki.VFE.Medieval2</li>
     <li>VanillaExpanded.VAPPE</li>
@@ -24,5 +24,6 @@
     <li>tug.Minotaur.Expanded</li>
     <li>BiomesTeam.BiomesFossils</li>
     <li>VanillaExpanded.VIEHAR</li>
+    <li>Trickity.Samurai.Faction</li>
   </loadAfter>
 </ModMetaData>

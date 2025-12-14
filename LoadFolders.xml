@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
   <v1.6>
+    <li IfModActive="Trickity.Samurai.Faction">1.6/Samurai Faction/Core</li>
+    <li IfModActive="OskarPotocki.VFE.Classical">1.6/Vanilla Factions Expanded - Classical/Core</li>
     <li IfModActive="VanillaExpanded.VIEHAR">1.6/Vanilla Ideology Expanded - Hats and Rags/Core</li>
     <li IfModActive="matte.rimstuff.tacticoolops">1.6/Tacticool Ops/Core</li>
     <li IfModActive="BiomesTeam.BiomesFossils">1.6/Biomes! Fossils/Core</li>

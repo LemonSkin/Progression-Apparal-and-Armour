@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Legionnaire Armour -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>6</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireArmor"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>140</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireArmor"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>22000</WorkToMake>
+        <MaxHitPoints>200</MaxHitPoints>
+        <Mass>10</Mass>
+        <StuffEffectMultiplierArmor>0.34</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>10</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <!-- Centurion Armour -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>8</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionArmor"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>180</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionArmor"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>22000</WorkToMake>
+        <MaxHitPoints>230</MaxHitPoints>
+        <Mass>15</Mass>
+        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>15</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionArmor"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MoveSpeed>-0.4</MoveSpeed>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>

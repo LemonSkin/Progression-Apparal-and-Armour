@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Ashigaru Armour -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>6</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>140</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>22000</WorkToMake>
+        <MaxHitPoints>200</MaxHitPoints>
+        <Mass>8</Mass>
+        <StuffEffectMultiplierArmor>0.45</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>10</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MoveSpeed>-0.2</MoveSpeed>
+        <MeleeDodgeChance>5</MeleeDodgeChance>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Neck</li>
+        <li>Shoulders</li>
+        <li>Arms</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+  <!-- Samurai Armour -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>8</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiArmor"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>180</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiArmor"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>22000</WorkToMake>
+        <MaxHitPoints>230</MaxHitPoints>
+        <Mass>10</Mass>
+        <StuffEffectMultiplierArmor>0.56</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>15</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiArmor"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeDodgeChance>5</MeleeDodgeChance>
+        <MoveSpeed>-0.4</MoveSpeed>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Daimyo Armour -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>10</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoArmor"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>180</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoArmor"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>29200</WorkToMake>
+        <MaxHitPoints>230</MaxHitPoints>
+        <Mass>10</Mass>
+        <StuffEffectMultiplierArmor>0.56</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.15</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>15</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoArmor"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <MeleeDodgeChance>5</MeleeDodgeChance>
+        <MoveSpeed>-0.4</MoveSpeed>
+        <SocialImpact>0.2</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+</Patch>

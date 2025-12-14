@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Sackcloth -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
+    <value>
+      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/apparel/bodyPartGroups/li[.="Neck"]</xpath>
+  </Operation>
+  <!-- Vest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>55</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>5000</WorkToMake>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.3</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.25</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.11</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Torso</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+  <!-- Padded surcoat -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Surcoat"]/stuffCategories</xpath>
+    <order>Append</order>
+    <value>
+      <li>Leathery</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Surcoat"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>2</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Surcoat"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>50</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Surcoat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>2700</WorkToMake>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Mass>0.9</Mass>
+        <StuffEffectMultiplierArmor>0.26</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.22</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Surcoat"]/apparel/bodyPartGroups/li[.="Neck"]</xpath>
+  </Operation>
+  <!-- Gambeson -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]/stuffCategories</xpath>
+    <order>Append</order>
+    <value>
+      <li>Leathery</li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>5</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>75</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>5000</WorkToMake>
+        <MaxHitPoints>150</MaxHitPoints>
+        <Mass>3.6</Mass>
+        <StuffEffectMultiplierArmor>0.36</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.32</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]/apparel/bodyPartGroups</xpath>
+    <order>Append</order>
+    <value>
+      <li>Arms</li>
+    </value>
+  </Operation>
+  <!-- Padded Armor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Padded_Leather"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>6000</WorkToMake>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <!-- Light lamellar -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>70</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>5000</WorkToMake>
+        <MaxHitPoints>100</MaxHitPoints>
+        <Mass>1.5</Mass>
+        <StuffEffectMultiplierArmor>0.35</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>1.2</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Light_Lamellar"]/apparel/bodyPartGroups/li[.="Shoulders"]</xpath>
+  </Operation>
+</Patch>
