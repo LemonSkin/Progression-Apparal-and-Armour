@@ -78,15 +78,10 @@ TBA
 * Protective clothing now requires Rustic tailoring as a prerequisite
 * TODO: Fix bone plating description and coverage, add incoming damage buff to offset
 * TODO: Additional fur padding - nerf incoming damage multiplier
-* TODO: Changed nudity for the following:
-    * Arming cap and coif (No)
-    * Red bandana (No)
-    * Boots & Gloves (No)
-    * Padded helms, Zweihander's hat (No)
-    * Splinted boots, Splinted gloves, Zweihander's helm (No)
 
 ### Fixes
 * Fixed assorted naming capitalisations and consistencies
+
 ### Stat Rebalances
 A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2PACX-1vQmmVptvppCcBcHlpddp4ybxqxiWHD-lYgHZshrmveGyvD1ocn9eV8f_0VRB8O-neccd-cqWn6lkID6/pubhtml
 
@@ -151,7 +146,7 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Rebalanced Leather armor and helmet
 * Rebalanced Heavy leather armor and helmet
 * Increased level requirement for Heavy Plate Armor and Helmet to 10
-* TODO: Shields
+* VFE shields replaced in favour of more balanced MO shields
 
 ## TODO: Vanilla Apparel Expanded
 * Moved the following to Rustic clothing:
@@ -222,6 +217,9 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 ## Vanilla Ideology Expanded - Hats and Rags
 * Added ComplexClothing requirement to: Commissar hat, military cap, and horse mask
 
+## Vanilla Factions Expanded - Classical
+* Rebalanced armours and shields to make them worse than their medieval counterparts
+
 ## TODO:
 * Roo's Minotaur Xenotype Expanded: 
     * Add Cowbell to Fae research
@@ -233,8 +231,7 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
     * Slave outfit
 * Det's Xenotypes - Avaloi
     * Trilense glasses
-* Vanilla Factions Expanded - Classical
-    * Balance pass
+
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO
