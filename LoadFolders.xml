@@ -61,5 +61,13 @@
     <li IfModActive="mouse.gloomydress">1.6/Gloomy Dress</li>
     <li IfModActive="ponpeco.ponpecoaccessories">1.6/Ponpeco Accessories</li>
     <li IfModActive="needy.girl.overdose">1.6/Needy Girl Overdose</li>
+    <li IfModActive="hartarok.dresses">1.6/Dresses in the Rim</li>
+    <li IfModActive="xmb.ancientthreat.mo">1.6/Ancient Amorphous Threat</li>
+    <li IfModActive="loopus.primhairs">1.6/Prim's Hair</li>
+    <li IfModActive="unagi.a.d.coat">1.6/UNAGI Another Duster Coat</li>
+    <li IfModActive="mo.decorationsluxury">1.6/Decorations and dishes at Gorgeous banquet</li>
+    <li IfModActive="pu.lunartikaaa">1.6/Police Uniforms</li>
+    <li IfModActive="ponpeco.ponpecopajamas">1.6/Ponpeco Pajamas</li>
+    <li IfModActive="resplice.xotr.charmweavers">1.6/Resplice Charmweavers</li>
   </v1.6>
 </loadFolders>

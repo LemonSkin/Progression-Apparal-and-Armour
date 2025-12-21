@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PonpecoPajamaA"]/label</xpath>
+    <value>
+      <label>loose pajamas</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PonpecoPajamaB"]/label</xpath>
+    <value>
+      <label>classic pajamas</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PonpecoPajamaParka"]/label</xpath>
+    <value>
+      <label>fluffy pajamas</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PonpecoPajamaSlippers"]/label</xpath>
+    <value>
+      <label>slippers</label>
+    </value>
+  </Operation>
+
+</Patch>

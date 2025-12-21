@@ -1,18 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-
-
-  <!-- <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="Apparel_Robe"]/recipeMaker</xpath>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/WorkGiverDef[defName="DoBillsMakeApparel"]/fixedBillGiverDefs</xpath>
     <value>
-      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+      <li>Ferny_VanityTable</li>
     </value>
   </Operation>
-
-
- -->
-
-
 
 </Patch>

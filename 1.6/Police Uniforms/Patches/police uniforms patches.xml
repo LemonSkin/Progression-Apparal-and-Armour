@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PU_ClassB"]/label</xpath>
+    <value>
+      <label>police uniform (class b)</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PU_ClassA"]/label</xpath>
+    <value>
+      <label>police uniform (class a)</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PU_CapA"]/label</xpath>
+    <value>
+      <label>police service cap</label>
+    </value>
+  </Operation>
+
+
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AT_AmorphousDress"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation> -->
+
+
+</Patch>

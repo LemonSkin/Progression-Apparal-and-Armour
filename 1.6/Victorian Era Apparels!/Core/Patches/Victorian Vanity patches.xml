@@ -1,29 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <!--
-    Force the new recipeMaker everywhere it matters:
-    1) Patch the true base (GD_ApparelBase) so anything inheriting (unless it overrides) gets it.
-    2) Patch any defs that *do* override recipeMaker (these ones do).
-  -->
 
-  <!-- === BASE: stamp the abstract base so inheritors get it by default === -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[@Name="GD_ApparelBase"]/recipeMaker</xpath>
-    <value>
-      <recipeMaker>
-        <recipeUsers Inherit="False">
-          <li>Ferny_VanityTable</li>
-        </recipeUsers>
-        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
-      </recipeMaker>
-    </value>
-  </Operation>
-
-  <!-- === OVERRIDERS: these defs have their own <recipeMaker>, so force them too === -->
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_lolita"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -35,7 +16,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_mini"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressB"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -47,19 +28,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_ribondress"]/recipeMaker</xpath>
-    <value>
-        <recipeMaker>
-          <recipeUsers Inherit="False">
-            <li>Ferny_VanityTable</li>
-          </recipeUsers>
-          <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
-        </recipeMaker>
-    </value>
-  </Operation>
-
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_ribonhat"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -71,7 +40,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_maid"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maidb"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -83,7 +52,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_hairband"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -95,7 +64,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_neat"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -107,7 +76,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_nuns"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
@@ -119,7 +88,7 @@
   </Operation>
 
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_nunsveil"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
         <recipeUsers Inherit="False">
