@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_CommisarHat" or defName="VIEHAR_Apparel_HorseMask" or defName="VIEHAR_Apparel_MilitaryCap"]</xpath>
+    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_CommisarHat" or defName="VIEHAR_Apparel_MilitaryCap"]</xpath>
     <value>
       <recipeMaker>
         <researchPrerequisite>ComplexClothing</researchPrerequisite>

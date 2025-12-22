@@ -69,5 +69,7 @@
     <li IfModActive="pu.lunartikaaa">1.6/Police Uniforms</li>
     <li IfModActive="ponpeco.ponpecopajamas">1.6/Ponpeco Pajamas</li>
     <li IfModActive="resplice.xotr.charmweavers">1.6/Resplice Charmweavers</li>
+    <li IfModActive="oracle.miscellania">1.6/Oracle's Miscellania</li>
+    <li IfModActive="zal.bananasuit">1.6/Banana Suit</li>
   </v1.6>
 </loadFolders>

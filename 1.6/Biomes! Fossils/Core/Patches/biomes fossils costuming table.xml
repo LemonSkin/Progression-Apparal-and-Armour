@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BMT_Apparel_DinoHatCarni"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_CostumingTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_CostumingTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BMT_Apparel_MascotOutfit"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_CostumingTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_CostumingTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+</Patch>

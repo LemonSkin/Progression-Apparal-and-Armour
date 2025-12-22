@@ -21,4 +21,17 @@
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.90</researchViewY>
   </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_CostumingTable</defName>
+    <label>costuming table</label>
+    <description>Tailor costumes and masks for your colonists.</description>
+    <baseCost>400</baseCost>
+    <tab></tab>
+    <techLevel>Medieval</techLevel>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>4.90</researchViewY>
+  </ResearchProjectDef>
+
+
 </Defs>
