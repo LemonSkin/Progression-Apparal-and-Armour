@@ -5,7 +5,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AT_AmorphousDress"]/recipeMaker</xpath>
     <value>
-      <recipeMaker>
+      <recipeMaker Inherit="False">
         <recipeUsers Inherit="False">
           <li>Ferny_VanityTable</li>
         </recipeUsers>

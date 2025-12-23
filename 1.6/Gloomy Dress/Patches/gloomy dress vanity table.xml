@@ -1,11 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <!--
-    Force the new recipeMaker everywhere it matters:
-    1) Patch the true base (GD_ApparelBase) so anything inheriting (unless it overrides) gets it.
-    2) Patch any defs that *do* override recipeMaker (these ones do).
-  -->
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_mini"]/label</xpath>
+    <value>
+      <label>miniature hat</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_mini"]/description</xpath>
+    <value>
+      <description>A cute and stylish miniature headpiece.</description>
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_nuns"]/label</xpath>
+    <value>
+      <label>nun dress</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_nuns"]/description</xpath>
+    <value>
+      <description>A beautiful nun's dress.</description>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_nunsveil"]/label</xpath>
+    <value>
+      <label>nun veil</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_nunsveil"]/description</xpath>
+    <value>
+      <description>A beautiful nun's veil.</description>
+    </value>
+  </Operation>
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_neat"]/label</xpath>
+    <value>
+      <label>off-shoulder turtleneck sweater</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_neat"]/description</xpath>
+    <value>
+      <description>A comfortable and cute sweater.</description>
+    </value>
+  </Operation>
+
+  
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_maid"]/label</xpath>
+    <value>
+      <label>cutesy maid dress</label>
+    </value>
+  </Operation>
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_mini"]/description</xpath>
+    <value>
+      <description>A cute and stylish miniature headpiece.</description>
+    </value>
+  </Operation>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   <!-- === BASE: stamp the abstract base so inheritors get it by default === -->
   <Operation Class="PatchOperationReplace">

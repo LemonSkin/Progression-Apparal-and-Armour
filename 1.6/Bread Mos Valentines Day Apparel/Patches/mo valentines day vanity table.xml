@@ -1,10 +1,91 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <!--
-    One shared "new recipemaker" value, repeated via Replace ops.
-    This forces the recipeMaker even if the ThingDef previously inherited it.
-  -->
+
+  <!-- hats -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="h_hat_weddingdress"]/label</xpath>
+    <value>
+      <label>wedding headdress</label>
+    </value>
+  </Operation>
+
+  <!-- cloth set -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_First"]/label</xpath>
+    <value><label>black gauze nightdress</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Second"]/label</xpath>
+    <value><label>fine line bikini</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Third"]/label</xpath>
+    <value><label>wearable gift ribbon</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Forth"]/label</xpath>
+    <value><label>new year's lingerie</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Fifth"]/label</xpath>
+    <value><label>black bunny lingerie</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Sixth"]/label</xpath>
+    <value><label>dancer's veil dress</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_seven"]/label</xpath>
+    <value><label>black evening dress</label></value>
+  </Operation>
+
+  <!-- halloween dresses -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Zoombie"]/label</xpath>
+    <value><label>zombie dress</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="h_hat_zoombie"]/label</xpath>
+    <value><label>zombie hat</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="h_hat_ghost"]/label</xpath>
+    <value><label>ghost hairpin</label></value>
+  </Operation>
+
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Ghost"]/label</xpath>
+    <value><label>ghost lingerie dress</label></value>
+  </Operation>
+
+  <!-- wedding -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Weddingdress"]/label</xpath>
+    <value><label>wedding dress</label></value>
+  </Operation>
+
+  <!-- shoes -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Stiletto_Second"]/label</xpath>
+    <value><label>wedding stiletto</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="H_Cloth_Stiletto_four"]/label</xpath>
+    <value><label>evening gown stiletto</label></value>
+  </Operation>
 
   <!-- === HATS: patch the parent-ish def (h_hat_weddingdress) so children inheriting from ParentName="H_Hat" get it === -->
   <Operation Class="PatchOperationReplace">

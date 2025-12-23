@@ -2,6 +2,43 @@
 <Patch>
 
 
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]/label</xpath>
+    <value>
+      <label>maid headdress (type a)</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]/label</xpath>
+    <value>
+      <label>maid headdress (type b)</label>
+    </value>
+  </Operation>
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid"]/label</xpath>
+    <value>
+      <label>formal maid dress (type a)</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maidb"]/label</xpath>
+    <value>
+      <label>formal maid dress (type b)</label>
+    </value>
+  </Operation>
+
+
+
+
+
+
+
+
 
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA"]/recipeMaker</xpath>
