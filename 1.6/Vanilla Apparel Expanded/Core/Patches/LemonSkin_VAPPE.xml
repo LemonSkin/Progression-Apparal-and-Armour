@@ -59,4 +59,12 @@
       <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Scarf"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Neck</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
 </Patch>

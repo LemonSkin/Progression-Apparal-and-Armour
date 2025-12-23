@@ -32,4 +32,14 @@
       </researchPrerequisites>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <CookSpeed>0.10</CookSpeed>
+        <FoodPoisonChance>-0.10</FoodPoisonChance>
+        <CleaningSpeed>0.10</CleaningSpeed>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
 </Patch>

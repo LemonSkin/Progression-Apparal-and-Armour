@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
   <v1.6>
-
-
     <!-- For rebalances -->
-
     <li IfModActive="Trickity.Samurai.Faction">1.6/Samurai Faction/Core</li>
     <li IfModActive="OskarPotocki.VFE.Classical">1.6/Vanilla Factions Expanded - Classical/Core</li>
     <li IfModActive="VanillaExpanded.VIEHAR">1.6/Vanilla Ideology Expanded - Hats and Rags/Core</li>
@@ -41,9 +38,9 @@
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VAPPE"
       >1.6/Medieval Overhaul/Vanilla Apparel Expanded</li
     >
-    <li IfModActiveAll="DankPyon.Medieval.Overhaul,ludeon.rimworld.biotech"
+    <!-- <li IfModActiveAll="DankPyon.Medieval.Overhaul,ludeon.rimworld.biotech"
       >1.6/Medieval Overhaul/Biotech</li
-    >
+    > -->
     <li IfModActiveAll="DankPyon.Medieval.Overhaul,ludeon.rimworld.royalty"
       >1.6/Medieval Overhaul/Royalty</li
     >
@@ -53,8 +50,6 @@
     <li IfModActive="ludeon.rimworld.royalty">1.6/Royalty</li>
     <li>1.6/Core</li>
     <li>/</li>
-
-
     <!-- For bench organization -->
     <li IfModActive="unagi.ap.dress">1.6/Unagi Royalty</li>
     <li IfModActive="mo.size.valentine.apparel">1.6/Bread Mos Valentines Day Apparel</li>

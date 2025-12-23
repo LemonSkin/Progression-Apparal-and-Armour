@@ -8,4 +8,12 @@
       </recipeMaker>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Beads"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <CertaintyLossFactor>-0.05</CertaintyLossFactor>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
 </Patch>

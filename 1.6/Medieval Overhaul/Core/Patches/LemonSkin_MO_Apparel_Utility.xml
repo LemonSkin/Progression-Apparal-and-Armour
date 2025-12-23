@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Quiver"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>2500</WorkToMake>
+        <MaxHitPoints>50</MaxHitPoints>
+        <Mass>1</Mass>
+        <EquipDelay>1</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Quiver"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <RangedCooldownFactor>-0.05</RangedCooldownFactor>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Quiver"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Waist</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+</Patch>

@@ -1,10 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- Red bandana -->
-  <Operation Class="PatchOperationReplace">
+  <!-- <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/costList/Cloth</xpath>
     <value>
       <Cloth>10</Cloth>
+    </value>
+  </Operation> -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/costList</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]</xpath>
+    <value>
+      <costStuffCount>10</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]</xpath>
+    <value>
+      <stuffCategories>
+        <li>Fabric</li>
+      </stuffCategories>
     </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
@@ -20,6 +37,12 @@
     </value>
   </Operation>
   <!-- Hood -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Hood"]/label</xpath>
+    <value>
+      <label>winter hood</label>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Hood"]/statBases/WorkToMake</xpath>
     <value>

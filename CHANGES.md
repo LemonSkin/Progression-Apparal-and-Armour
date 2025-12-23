@@ -221,8 +221,6 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Rebalanced armours and shields to make them worse than their medieval counterparts
 
 ## TODO:
-* Roo's Minotaur Xenotype Expanded: 
-    * Add Cowbell to Fae research
 * Vanilla Genentics Expanded: 
     * Muffalo pelt rug, Wolf rug, Huge bear rug, Huge Bearcat Rug
 * Samurai Faction
@@ -231,6 +229,8 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
     * Slave outfit
 * Det's Xenotypes - Avaloi
     * Trilense glasses
+* Dresses in the Rim
+* Vanilla Apparel Expanded - Accessories
 
 
 # Bug Fixes
