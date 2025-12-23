@@ -65,5 +65,6 @@
     <li IfModActive="resplice.xotr.charmweavers">1.6/Resplice Charmweavers</li>
     <li IfModActive="oracle.miscellania">1.6/Oracle's Miscellania</li>
     <li IfModActive="zal.bananasuit">1.6/Banana Suit</li>
+    <li IfModActive="dress.cinderella">1.6/Cinderella Apparel</li>
   </v1.6>
 </loadFolders>

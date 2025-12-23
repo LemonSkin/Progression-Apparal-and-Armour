@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaTiara"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaDress"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaGloves"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaShoes"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False">
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
+    </value>
+  </Operation>
+
+
+
+
+
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaTiara"]/label</xpath>
+    <value>
+        <label>princess tiara</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaDress"]/label</xpath>
+    <value>
+        <label>princess dress</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaGloves"]/label</xpath>
+    <value>
+        <label>princess gloves</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaShoes"]/label</xpath>
+    <value>
+        <label>princess shoes</label>
+    </value>
+  </Operation>
+
+
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaTiaraArmor"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False" IsNull="True" />
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaDressArmor"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False" IsNull="True" />
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaGlovesArmor"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False" IsNull="True" />
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaShoesArmor"]/recipeMaker</xpath>
+    <value>
+      <recipeMaker Inherit="False" IsNull="True" />
+    </value>
+  </Operation>
+
+</Patch>
