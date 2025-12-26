@@ -2,7 +2,7 @@
 <Defs>
   <ResearchProjectDef>
     <defName>LemonSkin_RBME_MinotaurCraftables</defName>
-    <label>minotaur craftables</label>
+    <label>minotaur equipment</label>
     <description>Create weapons and apparel inspired by Hellenic traditions.</description>
     <baseCost>700</baseCost>
     <techLevel>Neolithic</techLevel>

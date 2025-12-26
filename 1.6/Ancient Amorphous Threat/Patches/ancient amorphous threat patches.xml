@@ -3,6 +3,13 @@
 
 
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AT_AmorphousDress"]/label</xpath>
+    <value>
+      <label>amorphous dress</label>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="AT_AmorphousDress"]/recipeMaker</xpath>
     <value>
       <recipeMaker Inherit="False">

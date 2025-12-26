@@ -2,7 +2,7 @@
 <Defs>
   <ResearchProjectDef>
     <defName>LemonSkin_Tacticool_TacticoolGear</defName>
-    <label>tacticool gear</label>
+    <label>urban tactical gear</label>
     <description>Craft cool urban tactical gear.</description>
     <baseCost>700</baseCost>
     <techLevel>Industrial</techLevel>
