@@ -23,6 +23,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesLeather"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Splinted gloves -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/recipeMaker/skillRequirements/Crafting</xpath>
@@ -52,6 +60,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesSplinted"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Plate gloves -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/statBases</xpath>
@@ -73,6 +89,14 @@
       <equippedStatOffsets>
         <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

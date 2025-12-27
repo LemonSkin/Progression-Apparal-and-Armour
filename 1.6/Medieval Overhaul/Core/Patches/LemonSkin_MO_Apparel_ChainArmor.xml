@@ -29,6 +29,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Hauberk"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Heavy hauberk -->
   <!-- <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Heavy_Hauberk"]/recipeMaker/skillRequirements/Crafting</xpath>
@@ -58,6 +66,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Heavy_Hauberk"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Heraldic heavy hauberk -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="DankPyon_HeraldicHauberkBase"]/statBases</xpath>
@@ -79,6 +95,14 @@
       <equippedStatOffsets>
         <MoveSpeed>-0.2</MoveSpeed>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_HeraldicHauberkBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

@@ -27,4 +27,12 @@
       </bodyPartGroups>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Quiver"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalApparelUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
 </Patch>

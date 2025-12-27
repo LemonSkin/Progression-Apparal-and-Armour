@@ -7,6 +7,14 @@
       <label>casual t-shirt</label>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_CasualTShirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_Hoodie -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Hoodie"]/statBases</xpath>
@@ -28,6 +36,14 @@
       <layers>
         <li>Shell</li>
       </layers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Hoodie"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Apparel_Shorts -->
@@ -53,6 +69,14 @@
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Shorts"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Shorts"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
   </Operation>
   <!-- VAE_Apparel_Skirt -->
   <Operation Class="PatchOperationReplace">
@@ -83,6 +107,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Skirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>ApparelNoble</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_ShirtandTie -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_ShirtandTie"]/label</xpath>
@@ -110,6 +142,14 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_ShirtandTie"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>ApparelNoble</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_SuitJacket -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_SuitJacket"]/label</xpath>
@@ -131,11 +171,27 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_SuitJacket"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>ApparelNoble</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_Trousers -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Trousers"]/label</xpath>
     <value>
       <label>suit trousers</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Trousers"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>ApparelNoble</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Headgear_Fedora -->
@@ -166,6 +222,14 @@
         <SocialImpact>0.10</SocialImpact>
         <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Fedora"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>HeadgearNoble</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Apparel_Overalls -->
@@ -202,6 +266,15 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Overalls"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_FleeceShirt -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/label</xpath>
@@ -229,6 +302,15 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_FleeceShirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_Jeans -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Jeans"]/costStuffCount</xpath>
@@ -248,6 +330,14 @@
         <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>2</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Jeans"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Apparel_ChefsUniform -->
@@ -288,6 +378,15 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_ChefsUniform"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_MilitaryJacket -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryJacket"]/label</xpath>
@@ -318,6 +417,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryJacket"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_MilitaryUniform -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryUniform"]/label</xpath>
@@ -345,6 +452,14 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_MilitaryUniform"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_BuildersJacket -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_BuildersJacket"]/label</xpath>
@@ -366,6 +481,15 @@
         <Insulation_Heat>1.6</Insulation_Heat>
         <EquipDelay>1</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_BuildersJacket"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Apparel_DoctorScrubs -->
@@ -398,6 +522,15 @@
         <Insulation_Heat>4.8</Insulation_Heat>
         <EquipDelay>3.5</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_DoctorScrubs"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Apparel_LabCoat -->
@@ -470,6 +603,15 @@
       </bodyPartGroups>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_LabCoat"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_TankTop -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_TankTop"]/label</xpath>
@@ -493,6 +635,14 @@
   </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_TankTop"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TankTop"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
   </Operation>
   <!-- VAE_Apparel_SheriffShirt -->
   <Operation Class="PatchOperationReplace">
@@ -524,6 +674,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_SheriffShirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_Jumpsuit -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Jumpsuit"]/label</xpath>
@@ -551,6 +709,15 @@
       <equippedStatOffsets>
         <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Jumpsuit"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

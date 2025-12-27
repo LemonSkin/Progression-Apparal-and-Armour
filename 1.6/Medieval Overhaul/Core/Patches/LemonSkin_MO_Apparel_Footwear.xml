@@ -21,6 +21,14 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsLeather"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Splinted boots -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsSplinted"]/recipeMaker/skillRequirements/Crafting</xpath>
@@ -42,6 +50,14 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsSplinted"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Plate boots -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsPlate"]/recipeMaker/skillRequirements/Crafting</xpath>
@@ -61,6 +77,14 @@
         <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>2.5</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsPlate"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

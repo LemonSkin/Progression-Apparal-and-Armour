@@ -2,14 +2,24 @@
 <Patch>
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="TSFApparel_KidKamon"]</xpath>
-    <match Class="PatchOperationRemove">
+    <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="TSFApparel_KidKamon"]/thingCategories</xpath>
+      <value>
+        <thingCategories>
+          <li>LemonSkin_SamuraiApparel</li>
+        </thingCategories>
+      </value>
     </match>
   </Operation>
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="TSFApparel_KidGi"]</xpath>
-    <match Class="PatchOperationRemove">
+    <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="TSFApparel_KidGi"]/thingCategories</xpath>
+      <value>
+        <thingCategories>
+          <li>LemonSkin_SamuraiApparel</li>
+        </thingCategories>
+      </value>
     </match>
   </Operation>
 </Patch>

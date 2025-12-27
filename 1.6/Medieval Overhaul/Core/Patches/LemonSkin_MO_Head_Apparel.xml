@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  <!-- DankPyon_HatMakeableBase -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="DankPyon_HatMakeableBase"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- DankPyon_ArmorHelmetMakeableBase -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[@Name="DankPyon_ArmorHelmetMakeableBase"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Red bandana -->
   <!-- <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/costList/Cloth</xpath>
@@ -31,7 +49,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Hood"]/statBases/EquipDelay</xpath>
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_RedBandana"]/statBases/EquipDelay</xpath>
     <value>
       <EquipDelay>0.8</EquipDelay>
     </value>
@@ -161,6 +179,7 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <!-- ==================== Padded Helmets ==================== -->
   <!-- Padded Nasal Helm -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_PaddedNasalHelmet"]/costStuffCount</xpath>
@@ -548,6 +567,7 @@
       </bodyPartGroups>
     </value>
   </Operation>
+  <!-- ==================== Plate Helmets ==================== -->
   <!-- Closed bascinet -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedBascinetHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>

@@ -33,6 +33,14 @@
       <costStuffCount>45</costStuffCount>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Tunic"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_Blouse -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Blouse"]/recipeMaker/researchPrerequisite</xpath>
@@ -60,6 +68,14 @@
         <StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>1.5</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Blouse"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Apparel_Apron -->
@@ -104,6 +120,15 @@
         <li>Torso</li>
         <li>Legs</li>
       </bodyPartGroups>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Apron"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

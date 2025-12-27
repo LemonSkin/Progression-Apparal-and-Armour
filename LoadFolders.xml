@@ -17,6 +17,9 @@
     <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.anomaly"
       >1.6/Vanilla Apparel Expanded/Anomaly</li
     >
+    <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.royalty"
+      >1.6/Vanilla Apparel Expanded/Royalty</li
+    >
     <li IfModActive="VanillaExpanded.VAPPE">1.6/Vanilla Apparel Expanded/Core</li>
     <li IfModActiveAll="OskarPotocki.VFE.Medieval2,DankPyon.Medieval.Overhaul"
       >1.6/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li

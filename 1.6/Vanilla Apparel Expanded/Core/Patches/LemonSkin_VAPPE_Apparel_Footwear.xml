@@ -7,6 +7,20 @@
       <techLevel>Industrial</techLevel>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_Boots"]/techLevel</xpath>
+    <value>
+      <techLevel>Industrial</techLevel>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_Boots"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Footwear_Shoes -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Footwear_Shoes"]/recipeMaker/researchPrerequisite</xpath>
@@ -32,6 +46,14 @@
         <StuffEffectMultiplierInsulation_Heat>0.08</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>2.0</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_Shoes"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

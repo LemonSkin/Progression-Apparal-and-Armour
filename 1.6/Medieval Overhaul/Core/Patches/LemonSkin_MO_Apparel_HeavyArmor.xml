@@ -52,6 +52,14 @@
       </bodyPartGroups>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Brigandine"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Breast plate -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Breast_Plate"]/costStuffCount</xpath>
@@ -90,6 +98,14 @@
       </bodyPartGroups>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Breast_Plate"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Zweihander's Cuirass -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="DankPyon_ZweihanderCuirassBase"]/recipeMaker/skillRequirements/Crafting</xpath>
@@ -120,6 +136,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_ZweihanderCuirassBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Full plate -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlate"]/statBases</xpath>
@@ -141,6 +165,14 @@
       <equippedStatOffsets>
         <MoveSpeed>-0.70</MoveSpeed>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlate"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- Gilded full plate -->
@@ -168,6 +200,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateGilded"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Named full plate -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateNamed"]/equippedStatOffsets</xpath>
@@ -177,6 +217,23 @@
         <SocialImpact>0.35</SocialImpact>
         <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.2</SlaveSuppressionOffset>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateNamed"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- DankPyon_Apparel_Lindwurm -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Lindwurm"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

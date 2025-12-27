@@ -15,6 +15,23 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_Base_Pants"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- DankPyon_Base_ArmoredPants  -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_Base_ArmoredPants"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Padded Chausses -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_ChaussesPadded"]/costStuffCount</xpath>

@@ -21,6 +21,14 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_PeltCoat"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_TribalPoncho -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalPoncho"]/label</xpath>
@@ -52,6 +60,14 @@
       </bodyPartGroups>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalPoncho"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Apparel_TribalKilt -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalKilt"]/label</xpath>
@@ -71,6 +87,14 @@
         <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>1.5</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_TribalKilt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparel</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

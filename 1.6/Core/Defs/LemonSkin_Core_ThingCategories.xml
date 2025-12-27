@@ -62,16 +62,42 @@
     <label>medieval apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalApparelHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_MedievalApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalApparelUtility</defName>
+    <label>utility</label>
+    <parent>LemonSkin_MedievalApparel</parent>
+  </ThingCategoryDef>
   <!-- Industrial -->
   <ThingCategoryDef>
     <defName>LemonSkin_IndustrialApparel</defName>
     <label>industrial apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialApparelHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_IndustrialApparel</parent>
+  </ThingCategoryDef>
   <!-- Spacer -->
   <ThingCategoryDef>
     <defName>LemonSkin_SpacerApparel</defName>
     <label>spacer apparel</label>
     <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <!-- Other Categories -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_Workwear</defName>
+    <label>workwear</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_WorkwearHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_Workwear</parent>
   </ThingCategoryDef>
 </Defs>

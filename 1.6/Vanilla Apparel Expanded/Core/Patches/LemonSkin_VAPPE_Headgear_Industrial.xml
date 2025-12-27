@@ -35,6 +35,14 @@
       </bodyPartGroups>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Scarf"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Headgear_Beret -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Beret"]/costStuffCount</xpath>
@@ -63,6 +71,14 @@
         <MentalBreakThreshold>-0.05</MentalBreakThreshold>
         <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Beret"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Headgear_Hardhat -->
@@ -97,6 +113,15 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Hardhat"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_WorkwearHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Headgear_SurgicalMask -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Headgear_SurgicalMask"]/label</xpath>
@@ -118,6 +143,15 @@
         <Insulation_Heat>2</Insulation_Heat>
         <EquipDelay>0.8</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_SurgicalMask"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_WorkwearHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Headgear_BaseballCap -->
@@ -144,6 +178,14 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Headgear_BaseballCap"]/equippedStatOffsets</xpath>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_BaseballCap"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Headgear_Sunglasses -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]/label</xpath>
@@ -159,11 +201,27 @@
       </costList>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VAE_Headgear_Glasses -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Glasses"]/label</xpath>
     <value>
       <label>glasses</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Glasses"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- VAE_Headgear_ChefsToque -->
@@ -194,6 +252,15 @@
         <CookSpeed>0.10</CookSpeed>
         <FoodPoisonChance>-0.10</FoodPoisonChance>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_ChefsToque"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_WorkwearHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

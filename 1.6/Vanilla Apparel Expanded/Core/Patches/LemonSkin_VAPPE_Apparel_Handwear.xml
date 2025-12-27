@@ -42,4 +42,12 @@
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Handwear_Gloves"]/equippedStatOffsets</xpath>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Handwear_Gloves"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
 </Patch>

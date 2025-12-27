@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  <!-- AdornedArmorBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_AdornedArmorBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Heavy hauberk (adorned) -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AdornedMailShirt"]/statBases</xpath>
@@ -122,6 +131,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Adorned_HeavyMailCoif"]</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- Chainveil helm (adorned) -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]/recipeMaker/skillRequirements/Crafting</xpath>
@@ -150,12 +167,20 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainClosedFlatTopHelmet"]/equippedStatOffsets</xpath>
+    <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
         <ShootingAccuracyPawn>-5</ShootingAccuracyPawn>
         <SocialImpact>0.05</SocialImpact>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- Great helm (adorned) -->
@@ -187,6 +212,14 @@
         <MeleeHitChance>-0.5</MeleeHitChance>
         <SocialImpact>0.1</SocialImpact>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Adorned_GreatHelm"]</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>
