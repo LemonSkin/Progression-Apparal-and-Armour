@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Plate Boots -->
+  <!-- VAE_Footwear_PlateBoots -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -25,6 +25,23 @@
         <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>2.5</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Footwear_MarineBoots -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Footwear_MarineBoots"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

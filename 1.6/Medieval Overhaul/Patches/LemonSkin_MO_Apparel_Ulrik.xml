@@ -140,7 +140,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_HeavyMailCoif"]</xpath>
     <value>
-      <thingCategories>
+      <thingCategories Inherit="False">
         <li>LemonSkin_MedievalArmorHeadgear</li>
       </thingCategories>
     </value>
@@ -190,7 +190,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_FlatTop"]</xpath>
     <value>
-      <thingCategories>
+      <thingCategories Inherit="False">
         <li>LemonSkin_MedievalArmorHeadgear</li>
       </thingCategories>
     </value>
@@ -229,7 +229,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="DankPyon_Adorned_GreatHelm"]</xpath>
     <value>
-      <thingCategories>
+      <thingCategories Inherit="False">
         <li>LemonSkin_MedievalArmorHeadgear</li>
       </thingCategories>
     </value>

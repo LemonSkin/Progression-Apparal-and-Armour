@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Legionnaire Helmet -->
+  <!-- VFEC_Wreath -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Wreath"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>HeadgearNoble</li>
+        <li>LemonSkin_NeolithicApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEC_Apparel_LegionnaireHelmet -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/costStuffCount</xpath>
     <value>
@@ -30,7 +40,15 @@
       </equippedStatOffsets>
     </value>
   </Operation>
-  <!-- Centurion Helmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEC_Apparel_CenturionHelmet -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -64,6 +82,14 @@
         <ShootingAccuracyPawn>-6.0</ShootingAccuracyPawn>
         <MentalBreakThreshold>-0.04</MentalBreakThreshold>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

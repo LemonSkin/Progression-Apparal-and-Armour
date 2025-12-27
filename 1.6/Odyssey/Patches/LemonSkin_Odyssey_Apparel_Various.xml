@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
+  <!-- Apparel_Vacsuit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_Vacsuit"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_VacsuitChildren -->
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="Apparel_VacsuitChildren"]</xpath>
     <match Class="PatchOperationReplace">
@@ -7,6 +17,7 @@
       <value>
         <thingCategories>
           <li>LemonSkin_KidArmor</li>
+          <li>LemonSkin_SpacerArmor</li>
         </thingCategories>
       </value>
     </match>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Plate Boots -->
+  <!-- VAE_Handwear_PlateGloves -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Handwear_PlateGloves"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -33,6 +33,23 @@
       <equippedStatOffsets>
         <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Handwear_PlateGloves"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Handwear_MarineGloves -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Handwear_MarineGloves"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

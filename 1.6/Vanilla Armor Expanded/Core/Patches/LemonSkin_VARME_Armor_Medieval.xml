@@ -1,8 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Gambeson -->
-  <!-- Quilted Vest -->
-  <!-- Light Plate Armor -->
+  <!-- VAE_Apparel_Gambeson -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Gambeson"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_QuiltedVest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_QuiltedVest"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_LightPlateArmor -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/costStuffCount</xpath>
     <value>
@@ -31,7 +47,15 @@
       </equippedStatOffsets>
     </value>
   </Operation>
-  <!-- Plate Shoulderpads -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_PlateShoulderpads -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -52,8 +76,24 @@
       </statBases>
     </value>
   </Operation>
-  <!-- Chestplate -->
-  <!-- Chainmail -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateShoulderpads"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_Chestplate -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Chestplate"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_Chainmail -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -89,7 +129,15 @@
       </bodyPartGroups>
     </value>
   </Operation>
-  <!-- Plate Helmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Apparel_PlateHelmet -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -122,6 +170,14 @@
       <equippedStatOffsets>
         <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Apparel_PlateHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

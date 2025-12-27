@@ -13,6 +13,9 @@
     <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul"
       >1.6/Vanilla Armor Expanded/Medieval Overhaul</li
     >
+    <li IfModActiveAll="VanillaExpanded.VARME,ludeon.rimworld.royalty"
+      >1.6/Vanilla Armor Expanded/Royalty</li
+    >
     <li IfModActiveAll="VanillaExpanded.VARME">1.6/Vanilla Armor Expanded/Core</li>
     <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.anomaly"
       >1.6/Vanilla Apparel Expanded/Anomaly</li
@@ -30,18 +33,6 @@
     <li IfModActive="OskarPotocki.VFE.Medieval2"
       >1.6/Vanilla Factions Expanded - Medieval 2/Core</li
     >
-    <!-- <li IfModActiveAll="DankPyon.Medieval.Overhaul,OskarPotocki.VFE.Tribals"
-      >1.6/Medieval Overhaul/Vanilla Factions Expanded - Tribals</li
-    > -->
-    <!-- <li IfModActiveAll="DankPyon.Medieval.Overhaul,VanillaExpanded.VAPPE"
-      >1.6/Medieval Overhaul/Vanilla Apparel Expanded</li
-    > -->
-    <!-- <li IfModActiveAll="DankPyon.Medieval.Overhaul,ludeon.rimworld.biotech"
-      >1.6/Medieval Overhaul/Biotech</li
-    > -->
-    <!-- <li IfModActiveAll="DankPyon.Medieval.Overhaul,ludeon.rimworld.royalty"
-      >1.6/Medieval Overhaul/Royalty</li
-    > -->
     <li IfModActive="DankPyon.Medieval.Overhaul">1.6/Medieval Overhaul</li>
     <li IfModActive="ludeon.rimworld.odyssey">1.6/Odyssey</li>
     <li IfModActive="ludeon.rimworld.anomaly">1.6/Anomaly</li>

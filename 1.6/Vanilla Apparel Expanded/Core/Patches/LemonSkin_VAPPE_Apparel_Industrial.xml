@@ -670,7 +670,7 @@
     <value>
       <equippedStatOffsets>
         <NegotiationAbility>0.05</NegotiationAbility>
-        <SuppressionPower>0.1</SuppressionPower>
+        <SuppressionPower MayRequire="Ludeon.RimWorld.Ideology">0.1</SuppressionPower>
       </equippedStatOffsets>
     </value>
   </Operation>

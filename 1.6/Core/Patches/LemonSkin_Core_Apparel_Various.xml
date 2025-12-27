@@ -27,4 +27,22 @@
       <researchPrerequisite>ComplexClothing</researchPrerequisite>
     </value>
   </Operation>
+  <!-- ApparelArmorPowerBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorPowerBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- ApparelArmorReconBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ApparelArmorReconBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_SpacerArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
 </Patch>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- VAE_Headgear_Balaclava -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Balaclava"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Headgear_GhillieHood -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_GhillieHood"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VAE_Headgear_HAZMATMask -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_HAZMATMask"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_Workwear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

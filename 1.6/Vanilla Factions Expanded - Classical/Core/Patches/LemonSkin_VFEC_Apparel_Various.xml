@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Legionnaire Armour -->
+  <!-- VFEC_Toga -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VFEC_Toga"]/recipeMaker/skillRequirements</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Toga"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>50</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Toga"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>2000</WorkToMake>
+        <Mass>0.4</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.35</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.75</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEC_Toga"]</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.05</SocialImpact>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Toga"]/apparel/bodyPartGroups</xpath>
+    <value>
+      <bodyPartGroups>
+        <li>Torso</li>
+        <li>Shoulders</li>
+        <li>Legs</li>
+      </bodyPartGroups>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Toga"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEC_Apparel_LegionnaireArmor -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -27,7 +77,15 @@
       </statBases>
     </value>
   </Operation>
-  <!-- Centurion Armour -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_LegionnaireArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- VFEC_Apparel_CenturionArmor -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -60,6 +118,14 @@
       <equippedStatOffsets>
         <MoveSpeed>-0.4</MoveSpeed>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEC_Apparel_CenturionArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmor</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>
