@@ -1,9 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/recipeMaker</xpath>
+  <!-- HatBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="HatBase"]/thingCategories</xpath>
     <value>
-      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+      <thingCategories>
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- HatMakeableBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="HatMakeableBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- ArmorHelmetMakeableBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="ArmorHelmetMakeableBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_IndustrialArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_TribalHeaddress -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_TribalHeaddress"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_WarMask -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_WarMask"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_WarVeil -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_WarVeil"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparelHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -31,6 +79,26 @@
       <thingCategories Inherit="False">
         <li>LemonSkin_SpacerArmorHeadgear</li>
       </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_HatHood -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Ideology</li>
+    </mods>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/equippedStatOffsets</xpath>
+      <value>
+        <equippedStatOffsets>
+          <ConversionPower>0.05</ConversionPower>
+        </equippedStatOffsets>
+      </value>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

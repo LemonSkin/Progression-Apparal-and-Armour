@@ -2,14 +2,15 @@
 <loadFolders>
   <v1.6>
     <!-- For rebalances -->
-    <li IfModActive="Trickity.Samurai.Faction">1.6/Samurai Faction/Core</li>
-    <li IfModActive="OskarPotocki.VFE.Classical">1.6/Vanilla Factions Expanded - Classical/Core</li>
-    <li IfModActive="VanillaExpanded.VIEHAR">1.6/Vanilla Ideology Expanded - Hats and Rags/Core</li>
-    <li IfModActive="matte.rimstuff.tacticoolops">1.6/Tacticool Ops/Core</li>
-    <li IfModActive="BiomesTeam.BiomesFossils">1.6/Biomes! Fossils/Core</li>
-    <li IfModActive="tug.Minotaur.Expanded">1.6/Roo's Minotaur Xenotype Expanded/Core</li>
-    <li IfModActive="tug.SatyrFaun.Expanded">1.6/Roo's Satyr and Faun Xenotypes Expanded/Core</li>
-    <li IfModActive="Gunmar.VictorianEraApparels">1.6/Victorian Era Apparels!/Core</li>
+    <li IfModActive="Trickity.Samurai.Faction">1.6/Samurai Faction</li>
+    <li IfModActive="OskarPotocki.VFE.Medieval2">1.6/Vanilla Factions Expanded - Tribals</li>
+    <li IfModActive="OskarPotocki.VFE.Classical">1.6/Vanilla Factions Expanded - Classical</li>
+    <li IfModActive="VanillaExpanded.VIEHAR">1.6/Vanilla Ideology Expanded - Hats and Rags</li>
+    <li IfModActive="matte.rimstuff.tacticoolops">1.6/Tacticool Ops</li>
+    <li IfModActive="BiomesTeam.BiomesFossils">1.6/Biomes! Fossils</li>
+    <li IfModActive="tug.Minotaur.Expanded">1.6/Roo's Minotaur Xenotype Expanded</li>
+    <li IfModActive="tug.SatyrFaun.Expanded">1.6/Roo's Satyr and Faun Xenotypes Expanded</li>
+    <li IfModActive="Gunmar.VictorianEraApparels">1.6/Victorian Era Apparels!</li>
     <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul"
       >1.6/Vanilla Armor Expanded/Medieval Overhaul</li
     >
@@ -26,9 +27,6 @@
     <li IfModActive="VanillaExpanded.VAPPE">1.6/Vanilla Apparel Expanded/Core</li>
     <li IfModActiveAll="OskarPotocki.VFE.Medieval2,DankPyon.Medieval.Overhaul"
       >1.6/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li
-    >
-    <li IfModActiveAll="OskarPotocki.VFE.Medieval2,ludeon.rimworld.royalty"
-      >1.6/Vanilla Factions Expanded - Medieval 2/Royalty</li
     >
     <li IfModActive="OskarPotocki.VFE.Medieval2"
       >1.6/Vanilla Factions Expanded - Medieval 2/Core</li

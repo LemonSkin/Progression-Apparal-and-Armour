@@ -21,6 +21,24 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateHelmetHeavy"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Anvil"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlateHelmetHeavy"]/recipeMaker/recipeUsers</xpath>
+      <order>Append</order>
+      <value>
+        <li>DankPyon_Anvil</li>
+      </value>
+    </match>
+  </Operation>
   <!-- Jester Hat -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]/statBases</xpath>
@@ -32,6 +50,29 @@
         <EquipDelay>0.8</EquipDelay>
       </statBases>
     </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="NobleApparel"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>NobleApparel</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+      </value>
+    </nomatch>
   </Operation>
   <!-- Dame Hat -->
   <Operation Class="PatchOperationReplace">
@@ -60,6 +101,29 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>HeadgearNoble</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="RoyalApparel"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>RoyalApparel</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+      </value>
+    </nomatch>
+  </Operation>
   <!-- King's Crown -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/costStuffCount</xpath>
@@ -87,6 +151,35 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>HeadgearNoble</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ResearchProjectDef[defName="RoyalApparel"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>RoyalApparel</li>
+          <li>Smithing</li>
+        </researchPrerequisites>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_KingsCrown"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisites>
+          <li>LemonSkin_RusticClothing</li>
+          <li>Smithing</li>
+        </researchPrerequisites>
+      </value>
+    </nomatch>
+  </Operation>
   <!-- Plague Mask -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlagueMask"]/statBases</xpath>
@@ -108,9 +201,146 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlagueMask"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlagueMask"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
   <!-- Heavy Leather Helmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>12000</WorkToMake>
+        <MaxHitPoints>140</MaxHitPoints>
+        <Mass>3.5</Mass>
+        <StuffEffectMultiplierArmor>0.5</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>2</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-6</ShootingAccuracyPawn>
+        <PainShockThreshold>0.2</PainShockThreshold>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Anvil"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_HeavyLeatherHelmet"]/recipeMaker/recipeUsers</xpath>
+      <order>Append</order>
+      <value>
+        <li>DankPyon_Anvil</li>
+      </value>
+    </match>
+  </Operation>
   <!-- Leather Helmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>50</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>7600</WorkToMake>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.4</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>1.5</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
+        <PainShockThreshold>0.10</PainShockThreshold>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_LeatherArmour</researchPrerequisite>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Anvil"]</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs/ThingDef[defName="VFEM2_Apparel_LeatherHelmet"]/recipeMaker/recipeUsers</xpath>
+      <order>Append</order>
+      <value>
+        <li>DankPyon_Anvil</li>
+      </value>
+    </match>
+  </Operation>
   <!-- Padded Helmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedHelmet"]/label</xpath>
+    <value>
+      <label>light padded helmet</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedHelmet"]/recipeMaker/skillRequirements</xpath>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedHelmet"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PaddedHelmet"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
   <!-- Chaperon -->
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/recipeMaker/skillRequirements</xpath>
@@ -143,6 +373,20 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
+  </Operation>
   <!-- Cap -->
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/recipeMaker/skillRequirements</xpath>
@@ -166,6 +410,20 @@
       <equippedStatOffsets>
         <ShootingAccuracyPawn>2</ShootingAccuracyPawn>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

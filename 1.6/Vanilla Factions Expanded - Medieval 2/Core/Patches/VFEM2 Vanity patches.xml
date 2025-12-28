@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationReplace">
+  <!-- <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_DameHat"]/recipeMaker</xpath>
     <value>
       <recipeMaker>
@@ -10,5 +10,5 @@
         <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
-  </Operation>
+  </Operation> -->
 </Patch>
