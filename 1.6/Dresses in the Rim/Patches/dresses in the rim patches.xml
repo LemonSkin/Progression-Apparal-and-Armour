@@ -1,19 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- belly dance dress -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="BellyDance_dress"]/label</xpath>
-    <value>
-      <label>belly dance dress</label>
-    </value>
-  </Operation>
-  <!-- countess dress -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="CountessCorset_dress"]/label</xpath>
-    <value>
-      <label>countess dress</label>
-    </value>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="Hart_Dress_Base"]/recipeMaker</xpath>
     <value>

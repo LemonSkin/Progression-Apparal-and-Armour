@@ -27,6 +27,53 @@
       </thingCategories>
     </value>
   </Operation>
+  <!-- Apparel_CowboyHat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.14</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_CowboyHat"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.05</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <!-- Apparel_BowlerHat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.14</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.30</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_BowlerHat"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.1</SocialImpact>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.05</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
   <!-- Apparel_TribalHeaddress -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_TribalHeaddress"]</xpath>
@@ -94,6 +141,14 @@
         </equippedStatOffsets>
       </value>
     </match>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_HatHood"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparelHeadgear</li>
+      </thingCategories>
+    </value>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_HatHood"]/recipeMaker</xpath>
