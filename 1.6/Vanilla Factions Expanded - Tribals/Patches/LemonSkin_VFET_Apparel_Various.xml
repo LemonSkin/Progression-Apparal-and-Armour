@@ -64,7 +64,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VFET_Apparel_TribalHeavy"]/thingCategories</xpath>
+    <xpath>Defs/ThingDef[defName="VFET_Apparel_TribalWar"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_NeolithicArmor</li>

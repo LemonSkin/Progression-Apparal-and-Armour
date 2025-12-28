@@ -2,9 +2,9 @@
 <Patch>
   <!-- GLASSES BASE -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[@Name="TACTICOOL_GlassesBase"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_GlassesBase"]/costStuffCount</xpath>
     <value>
-      <researchPrerequisite>LemonSkin_Tacticool_TacticoolGear</researchPrerequisite>
+      <costStuffCount>10</costStuffCount>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -15,12 +15,36 @@
         <WorkToMake>1000</WorkToMake>
         <Mass>0.01</Mass>
         <ArmorRating_Sharp>0.05</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.05</ArmorRating_Blunt>
-        <ArmorRating_Heat>0.1</ArmorRating_Heat>
+        <ArmorRating_Blunt>0.04</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.04</ArmorRating_Heat>
         <Insulation_Cold>0</Insulation_Cold>
         <Insulation_Heat>0</Insulation_Heat>
         <EquipDelay>0.4</EquipDelay>
       </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_GlassesBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_GlassesBase"]/recipeMaker/researchPrerequisite</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_Tacticool_TacticoolGear</researchPrerequisite>
+    </value>
+  </Operation>
+  <!-- Aviators -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TACTICOOL_Aviators"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.05</SocialImpact>
+        <NegotiationAbility>0.05</NegotiationAbility>
+      </equippedStatOffsets>
     </value>
   </Operation>
   <!-- BallsicGlasses -->
@@ -29,11 +53,11 @@
     <value>
       <statBases>
         <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1500</WorkToMake>
-        <Mass>0.15</Mass>
-        <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-        <ArmorRating_Heat>0.6</ArmorRating_Heat>
+        <WorkToMake>1000</WorkToMake>
+        <Mass>0.01</Mass>
+        <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.40</ArmorRating_Heat>
         <Insulation_Cold>0</Insulation_Cold>
         <Insulation_Heat>0</Insulation_Heat>
         <EquipDelay>0.4</EquipDelay>
@@ -45,11 +69,11 @@
     <value>
       <statBases>
         <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1500</WorkToMake>
-        <Mass>0.15</Mass>
-        <ArmorRating_Sharp>0.5</ArmorRating_Sharp>
-        <ArmorRating_Blunt>0.5</ArmorRating_Blunt>
-        <ArmorRating_Heat>0.6</ArmorRating_Heat>
+        <WorkToMake>1000</WorkToMake>
+        <Mass>0.01</Mass>
+        <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+        <ArmorRating_Blunt>0.10</ArmorRating_Blunt>
+        <ArmorRating_Heat>0.40</ArmorRating_Heat>
         <Insulation_Cold>0</Insulation_Cold>
         <Insulation_Heat>0</Insulation_Heat>
         <EquipDelay>0.4</EquipDelay>
@@ -57,6 +81,14 @@
     </value>
   </Operation>
   <!-- FACE BANDANA BASE -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_FaceBandanaBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[@Name="TACTICOOL_FaceBandanaBase"]/recipeMaker</xpath>
     <value>
@@ -73,9 +105,9 @@
     <xpath>Defs/ThingDef[@Name="TACTICOOL_FaceBandanaBase"]/statBases</xpath>
     <value>
       <statBases>
-        <WorkToMake>1400</WorkToMake>
+        <WorkToMake>1200</WorkToMake>
         <MaxHitPoints>80</MaxHitPoints>
-        <Mass>0.08</Mass>
+        <Mass>0.05</Mass>
         <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
         <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
         <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
@@ -83,7 +115,41 @@
       </statBases>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_FaceBandanaBase"]/stuffCategories</xpath>
+    <value>
+      <stuffCategories>
+        <li>Fabric</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_FaceBandanaBase"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <ToxicEnvironmentResistance>0.45</ToxicEnvironmentResistance>
+        <PainShockThreshold>0.10</PainShockThreshold>
+        <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">-0.1</SlaveSuppressionOffset>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
   <!-- BALACLAVA BASE - closer to Vanilla Tuque -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_BalaclavaBase"]/stuffCategories</xpath>
+    <value>
+      <stuffCategories>
+        <li>Fabric</li>
+      </stuffCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_BalaclavaBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="TACTICOOL_BalaclavaBase"]/recipeMaker/researchPrerequisite</xpath>
     <value>
@@ -94,11 +160,11 @@
     <xpath>Defs/ThingDef[@Name="TACTICOOL_BalaclavaBase"]/statBases</xpath>
     <value>
       <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1200</WorkToMake>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
         <Mass>0.07</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.60</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierArmor>0.15</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
         <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>0.8</EquipDelay>
       </statBases>
@@ -108,7 +174,8 @@
     <xpath>Defs/ThingDef[@Name="TACTICOOL_BalaclavaBase"]/apparel/bodyPartGroups</xpath>
     <value>
       <bodyPartGroups>
-        <li>FullHead</li>
+        <li>UpperHead</li>
+        <li>UpperHead</li>
       </bodyPartGroups>
     </value>
   </Operation>
@@ -116,11 +183,38 @@
     <xpath>Defs/ThingDef[@Name="TACTICOOL_BalaclavaBase"]</xpath>
     <value>
       <equippedStatOffsets>
-        <PainShockThreshold>0.10</PainShockThreshold>
+        <MentalBreakThreshold>-0.05</MentalBreakThreshold>
       </equippedStatOffsets>
     </value>
   </Operation>
+  <!-- Remove VARME balaclava -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="VAE_Headgear_Balaclava"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="VAE_Headgear_Balaclava"]</xpath>
+    </match>
+  </Operation>
   <!-- MESH CAP -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TACTICOOL_MeshCap"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>20</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TACTICOOL_MeshCap"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1200</WorkToMake>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.5</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TACTICOOL_MeshCap"]/recipeMaker/researchPrerequisite</xpath>
     <value>
@@ -128,25 +222,11 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MeshCap"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="TACTICOOL_MeshCap"]/thingCategories</xpath>
     <value>
-      <statBases>
-        <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>1800</WorkToMake>
-        <Mass>0.08</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.4</StuffEffectMultiplierInsulation_Heat>
-        <EquipDelay>0.8</EquipDelay>
-      </statBases>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MeshCap"]</xpath>
-    <value>
-      <equippedStatOffsets>
-        <MoveSpeed>0.05</MoveSpeed>
-      </equippedStatOffsets>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparelHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

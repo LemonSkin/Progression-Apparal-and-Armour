@@ -160,6 +160,14 @@
       </equippedStatOffsets>
     </value>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faemail"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- RBSFE_Faecrown -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/recipeMaker</xpath>
@@ -188,6 +196,14 @@
         <Beauty>1</Beauty>
         <RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>RBSFE_FaeApparelCategory</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- RBSFE_Faerose -->
@@ -248,6 +264,14 @@
         <RBSF_NatureConnectionOffset>0.10</RBSF_NatureConnectionOffset>
         <PsychicSensitivity>0.05</PsychicSensitivity>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>RBSFE_FaeApparelCategory</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- RBSFE_Faescarf -->
@@ -322,6 +346,14 @@
         <li>FueledSmithy</li>
         <li MayRequire="DankPyon.Medieval.Overhaul">DankPyon_Anvil</li>
       </recipeUsers>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="RBSF_Faehelm"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

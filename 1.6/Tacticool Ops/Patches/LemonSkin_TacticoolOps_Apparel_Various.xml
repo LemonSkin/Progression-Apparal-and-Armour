@@ -1,100 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- HAWAIIAN SHIRT -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/recipeMaker/researchPrerequisite</xpath>
-    <value>
-      <researchPrerequisite>LemonSkin_Tacticool_TacticoolGear</researchPrerequisite>
-    </value>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/recipeMaker/skillRequirements</xpath>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/statBases/WorkToMake</xpath>
+    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/statBases</xpath>
     <value>
-      <WorkToMake>1600</WorkToMake>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/statBases/Mass</xpath>
-    <value>
-      <Mass>0.25</Mass>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/statBases/StuffEffectMultiplierArmor</xpath>
-    <value>
-      <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
-    <value>
-      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/statBases/StuffEffectMultiplierInsulation_Heat</xpath>
-    <value>
-      <StuffEffectMultiplierInsulation_Heat>0.22</StuffEffectMultiplierInsulation_Heat>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>7000</WorkToMake>
+        <Mass>0.3</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.3</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.8</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1</EquipDelay>
+      </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
-        <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        <MentalBreakThreshold>-0.1</MentalBreakThreshold>
       </equippedStatOffsets>
     </value>
   </Operation>
-  <!-- MUSCLE SHIRT -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TACTICOOL_HawaiianShirt"]/recipeMaker/researchPrerequisite</xpath>
     <value>
       <researchPrerequisite>LemonSkin_Tacticool_TacticoolGear</researchPrerequisite>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/statBases/MaxHitPoints</xpath>
-    <value>
-      <MaxHitPoints>100</MaxHitPoints>
-    </value>
+  <!-- MUSCLE SHIRT -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/recipeMaker/skillRequirements</xpath>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/statBases/WorkToMake</xpath>
+    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/statBases</xpath>
     <value>
-      <WorkToMake>1200</WorkToMake>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>1200</WorkToMake>
+        <Mass>0.15</Mass>
+        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.32</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>1</EquipDelay>
+      </statBases>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/statBases/Mass</xpath>
-    <value>
-      <Mass>0.25</Mass>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/statBases/StuffEffectMultiplierInsulation_Cold</xpath>
-    <value>
-      <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/statBases/StuffEffectMultiplierInsulation_Heat</xpath>
-    <value>
-      <StuffEffectMultiplierInsulation_Heat>0.22</StuffEffectMultiplierInsulation_Heat>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
+  <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/equippedStatOffsets</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/thingCategories</xpath>
     <value>
-      <equippedStatOffsets>
-        <MeleeDodgeChance>0.10</MeleeDodgeChance>
-        <MoveSpeed>0.05</MoveSpeed>
-      </equippedStatOffsets>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/apparel/countsAsClothingForNudity</xpath>
+    <xpath>Defs/ThingDef[defName="TACTICOOL_MuscleShirt"]/recipeMaker/researchPrerequisite</xpath>
     <value>
-      <countsAsClothingForNudity>true</countsAsClothingForNudity>
+      <researchPrerequisite>LemonSkin_Tacticool_TacticoolGear</researchPrerequisite>
     </value>
   </Operation>
 </Patch>

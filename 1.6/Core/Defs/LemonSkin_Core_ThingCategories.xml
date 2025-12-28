@@ -89,6 +89,11 @@
     <label>spacer apparel</label>
     <parent>Apparel</parent>
   </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerApparelHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_SpacerApparel</parent>
+  </ThingCategoryDef>
   <!-- Other Categories -->
   <ThingCategoryDef>
     <defName>LemonSkin_Workwear</defName>

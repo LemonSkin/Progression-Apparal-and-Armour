@@ -28,7 +28,7 @@
     <xpath>Defs/ThingDef[defName="VFEC_Toga"]</xpath>
     <value>
       <equippedStatOffsets>
-        <SocialImpact>0.05</SocialImpact>
+        <SocialImpact>0.1</SocialImpact>
       </equippedStatOffsets>
     </value>
   </Operation>
