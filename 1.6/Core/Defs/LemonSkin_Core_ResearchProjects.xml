@@ -2,7 +2,7 @@
 <Defs>
   <ResearchProjectDef>
     <defName>LemonSkin_RusticClothing</defName>
-    <label>rustic clothing</label>
+    <label>tailoring bench</label>
     <description>Tailor simple garments.</description>
     <baseCost>400</baseCost>
     <tab></tab>
@@ -15,7 +15,6 @@
     <label>vanity table</label>
     <description>Tailor beautiful garments for women.</description>
     <baseCost>400</baseCost>
-    <tab></tab>
     <techLevel>Medieval</techLevel>
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.90</researchViewY>
@@ -25,7 +24,6 @@
     <label>costuming table</label>
     <description>Tailor costumes and masks for your colonists.</description>
     <baseCost>400</baseCost>
-    <tab></tab>
     <techLevel>Medieval</techLevel>
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.90</researchViewY>

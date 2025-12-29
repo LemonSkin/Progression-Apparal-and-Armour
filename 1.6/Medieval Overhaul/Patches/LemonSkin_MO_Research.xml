@@ -4,12 +4,6 @@
   <Operation Class="PatchOperationSequence">
     <operations>
       <li Class="PatchOperationReplace">
-        <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/label</xpath>
-        <value>
-          <label>rustic tailoring</label>
-        </value>
-      </li>
-      <li Class="PatchOperationReplace">
         <xpath>Defs/ResearchProjectDef[defName="LemonSkin_RusticClothing"]/tab</xpath>
         <value>
           <tab>DankPyon_MedievalResearchTab</tab>
