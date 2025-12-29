@@ -2,7 +2,11 @@
 <loadFolders>
   <v1.6>
     <!-- For rebalances -->
+    <li IfModActive="XMB.AncientUrbanrUins.MO">1.6/Ancient Urban Ruins</li>
     <li IfModActive="Trickity.Samurai.Faction">1.6/Samurai Faction</li>
+    <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule"
+      >1.6/Vanilla Factions Expanded - Settlers</li
+    >
     <li IfModActive="OskarPotocki.VFE.Medieval2">1.6/Vanilla Factions Expanded - Tribals</li>
     <li IfModActive="OskarPotocki.VFE.Classical">1.6/Vanilla Factions Expanded - Classical</li>
     <li IfModActive="VanillaExpanded.VIEHAR">1.6/Vanilla Ideology Expanded - Hats and Rags</li>

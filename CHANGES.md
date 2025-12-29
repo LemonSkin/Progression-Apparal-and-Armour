@@ -233,17 +233,55 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
     * Armour and shields craftable on Republic crafting bench
     * Armour and shields research requires Crafting bench pre-requisite
 
+## T's Samurai Faction
+* Rebalanced
+
 ## TODO:
 * Vanilla Genentics Expanded: 
     * Muffalo pelt rug, Wolf rug, Huge bear rug, Huge Bearcat Rug
-* Samurai Faction
-    * Headband (maybe nerf too)
 * ReSplice: Charmweavers
     * Slave outfit
 * Det's Xenotypes - Avaloi
-    * Trilense glasses
+* Det's Xenotypes - Venators
+* Det's Xenotypes - Brawnum
+
 * Dresses in the Rim
 * Vanilla Apparel Expanded - Accessories
+* Ancient Urban Ruins
+* Oracles Miscellania
+* VFE - Settlers
+* VFE - Empire
+* VRE - Fungoid
+* VFE - Pirates
+* Vanilla Quests Expanded - Cryptoforge
+* Vanilla Quests Expanded - Generator
+* Vanilla Quests Expanded - Deadlife
+* Vanilla Quests Expanded - Ancients
+* Vanilla Psycasts Expanded
+* Vanilla Anomaly Expanded - Insanity
+
+* Altered Carbon 2: ReSleeved
+* Impact Weaponry - Reloaded
+* Alpha Genes
+* Bandage Wraps (Continued) 
+* Spacer Arsenal
+* Gravship Captain Set
+* Kid Apparel Expanded
+* Rainbow forest
+* Prim's Hair
+* UNAGI Another Duster Coat
+* UNAGI Apparel MOD Winter clothing
+* Decorations and dishes at Gorgeous banquet
+* Epochs - Golems
+* Police Uniforms
+* Medieval Overhaul: House Roxmont
+* Roo's Painting Expansion
+* Prisoner Jumpsuits
+* Leaf Skirt
+* Stylized Slave Collars and Headgears
+* Toddlers
+
+
 
 
 # Bug Fixes

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- AM_BulletproofMask -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="AM_ArmorHelmetMakeableBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

@@ -15,7 +15,6 @@
     <li>Ludeon.Rimworld.Biotech</li>
     <li>Ludeon.Rimworld.Anomaly</li>
     <li>Ludeon.Rimworld.Odyssey</li>
-
     <!-- For rebalancing -->
     <li>DankPyon.Medieval.Overhaul</li>
     <li>OskarPotocki.VFE.Medieval2</li>
@@ -27,7 +26,6 @@
     <li>BiomesTeam.BiomesFossils</li>
     <li>VanillaExpanded.VIEHAR</li>
     <li>Trickity.Samurai.Faction</li>
-
     <!-- For bench organization -->
     <li>unagi.ap.dress</li>
     <li>mo.size.valentine.apparel</li>
@@ -47,6 +45,3 @@
     <li>dress.cinderella</li>
   </loadAfter>
 </ModMetaData>
-
-
-

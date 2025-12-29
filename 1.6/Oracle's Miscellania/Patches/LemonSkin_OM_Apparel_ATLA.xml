@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- oracle_FireNationArmor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_FireNationArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_FireNationHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_FireNationHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_EarthEmpireUniform -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_EarthEmpireUniform"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_EarthEmpireHelmet -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_EarthEmpireHelmet"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>
