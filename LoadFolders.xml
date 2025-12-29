@@ -60,5 +60,6 @@
     <li IfModActive="oracle.miscellania">1.6/Oracle's Miscellania</li>
     <li IfModActive="zal.bananasuit">1.6/Banana Suit</li>
     <li IfModActive="dress.cinderella">1.6/Cinderella Apparel</li>
+    <li IfModActive="cat.imperial.attires">1.6/Imperial Attires</li>
   </v1.6>
 </loadFolders>

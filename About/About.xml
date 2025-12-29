@@ -26,6 +26,7 @@
     <li>BiomesTeam.BiomesFossils</li>
     <li>VanillaExpanded.VIEHAR</li>
     <li>Trickity.Samurai.Faction</li>
+    <li>matte.rimstuff.tacticoolops</li>
     <!-- For bench organization -->
     <li>unagi.ap.dress</li>
     <li>mo.size.valentine.apparel</li>
@@ -43,5 +44,6 @@
     <li>oracle.miscellania</li>
     <li>zal.bananasuit</li>
     <li>dress.cinderella</li>
+    <li>cat.imperial.attires</li>
   </loadAfter>
 </ModMetaData>
