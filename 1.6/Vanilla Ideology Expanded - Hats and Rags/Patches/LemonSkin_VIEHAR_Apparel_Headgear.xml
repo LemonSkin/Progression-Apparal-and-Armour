@@ -27,7 +27,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Beads"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -70,7 +70,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_BishopHat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -131,7 +131,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_BrimlessHat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -223,7 +223,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_DeerSkull"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -261,7 +261,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Fez"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -309,7 +309,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headbag"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -363,7 +363,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Headscarf"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -497,7 +497,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_Skullcap"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -545,7 +545,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -591,7 +591,7 @@
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_WideHat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

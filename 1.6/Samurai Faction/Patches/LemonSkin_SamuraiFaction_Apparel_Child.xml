@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationConditional">
+  <!-- <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="TSFApparel_KidKamon"]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="TSFApparel_KidKamon"]/thingCategories</xpath>
@@ -21,5 +21,5 @@
         </thingCategories>
       </value>
     </match>
-  </Operation>
+  </Operation> -->
 </Patch>

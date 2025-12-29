@@ -5,8 +5,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_BodyStrap"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparel</li>
-        <li>LemonSkin_Workwear</li>
+        <li>LemonSkin_PrisonerApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -30,7 +29,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_TortureCrown"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -39,7 +38,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_Blindfold"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

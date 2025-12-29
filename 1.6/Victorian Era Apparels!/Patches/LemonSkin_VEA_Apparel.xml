@@ -53,7 +53,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or defName="Gunmar_Apparel_DressB"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -111,7 +111,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
         <li>LemonSkin_Workwear</li>
       </thingCategories>
     </value>
@@ -141,7 +141,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -173,7 +173,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -196,7 +196,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -228,7 +228,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressCoat"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -260,7 +260,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Frock_Coat"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -304,7 +304,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
         <li>ApparelNoble</li>
       </thingCategories>
     </value>
@@ -354,7 +354,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Waistcoat"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
         <li>ApparelNoble</li>
       </thingCategories>
     </value>
@@ -368,7 +368,7 @@
       </researchPrerequisites>
     </value>
   </Operation>
-  <!-- Gunmar_Apparel_BpWaistcoat -->
+  <!-- Gunmar_Apparel_BpWaistcoat - bulletproof waistcoat -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
@@ -429,7 +429,6 @@
     <value>
       <thingCategories>
         <li>LemonSkin_IndustrialArmor</li>
-        <li>LemonSkin_VictorianApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -498,7 +497,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Coat"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -550,7 +549,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Hussar_Jacket"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_VictorianApparel</li>
+        <li>LemonSkin_IndustrialApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -582,7 +581,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_FeatheredHat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
         <li>HeadgearNoble</li>
       </thingCategories>
     </value>
@@ -618,7 +617,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
         <li>LemonSkin_WorkwearHeadgear</li>
       </thingCategories>
     </value>
@@ -645,7 +644,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
         <li>LemonSkin_WorkwearHeadgear</li>
       </thingCategories>
     </value>
@@ -687,7 +686,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BoaterHat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -725,7 +724,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_TopHat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
         <li>HeadgearNoble</li>
       </thingCategories>
     </value>
@@ -739,7 +738,7 @@
       </researchPrerequisites>
     </value>
   </Operation>
-  <!-- Gunmar_Apparel_Soldier_Helmet -->
+  <!-- Gunmar_Apparel_Soldier_Helmet - solder helmet -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Helmet"]/label</xpath>
     <value>
@@ -781,7 +780,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Helmet"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -822,7 +821,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Slouch_Hat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -862,7 +861,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Shako_Hat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -912,7 +911,6 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Metal_Helmet"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
         <li>LemonSkin_IndustrialArmorHeadgear</li>
       </thingCategories>
     </value>
@@ -958,7 +956,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Glasses"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -997,7 +995,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Monocle"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_VictorianApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

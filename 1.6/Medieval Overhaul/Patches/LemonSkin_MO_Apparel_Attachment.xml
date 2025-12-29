@@ -5,7 +5,7 @@
     <xpath>Defs/ThingDef[@Name="DankPyon_AnimalHoodBase"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

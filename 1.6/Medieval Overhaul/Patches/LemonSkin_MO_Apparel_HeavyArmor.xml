@@ -108,6 +108,18 @@
   </Operation>
   <!-- Zweihander's Cuirass -->
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="DankPyon_ZweihanderCuirassBase"]/label</xpath>
+    <value>
+      <label>zweihander cuirass</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Zweihanders_CuirassFloof"]/label</xpath>
+    <value>
+      <label>zweihander cuirass (puffy)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="DankPyon_ZweihanderCuirassBase"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>10</Crafting>
@@ -128,7 +140,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FullPlateGilded"]/equippedStatOffsets</xpath>
+    <xpath>Defs/ThingDef[@Name="DankPyon_ZweihanderCuirassBase"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
         <MoveSpeed>-0.4</MoveSpeed>

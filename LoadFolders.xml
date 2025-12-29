@@ -2,6 +2,31 @@
 <loadFolders>
   <v1.6>
     <!-- For rebalances -->
+    <li IfModActive="OskarPotocki.VFE.Empire">1.6/Vanilla Factions Expanded - Empire</li>
+    <li IfModActive="hlx.UltratechAlteredCarbon">1.6/Altered Carbon</li>
+    <li IfModActive="detvisor.impactweaponryreloaded">1.6/Impact Weaponry - Reloaded</li>
+    <li IfModActive="vanillaquestsexpanded.ancients">1.6/Vanilla Quests Expanded - Ancients</li>
+    <li IfModActive="vanillaquestsexpanded.deadlife">1.6/Vanilla Quests Expanded - Deadlife</li>
+    <li IfModActive="det.spacerarsenal">1.6/Spacer Arsenal</li>
+    <li IfModActive="TW.TangsBiome.RainbowForest">1.6/Rainbow Forest</li>
+    <li IfModActive="Kilo.CapVacHelm">1.6/Gravship Captain Set</li>
+    <li IfModActive="VanillaExpanded.VPsycastsE">1.6/Vanilla Psycasts Expanded</li>
+    <li IfModActive="vanillaquestsexpanded.generator">1.6/Vanilla Quests Expanded - Generator</li>
+    <li IfModActive="vanillaquestsexpanded.cryptoforge"
+      >1.6/Vanilla Quests Expanded - Cryptoforge</li
+    >
+    <li IfModActive="OskarPotocki.VFE.Pirates">1.6/Vanilla Factions Expanded - Pirates</li>
+    <li IfModActive="VanillaExpanded.VGeneticsE">1.6/Vanilla Genetics Expanded</li>
+    <li IfModActive="det.epochsgolems">1.6/Epochs - Golems</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul.House.Roxmont"
+      >1.6/Medieval Overhaul - House Roxmont</li
+    >
+    <li IfModActive="Rooboid.Paintings.Ex">1.6/Roo's Painting Expansion</li>
+    <li IfModActive="ocarina.prisonerjumpsuits">1.6/Prisoner Jumpsuits</li>
+    <li IfModActive="sd.leafskirt">1.6/Leaf Skirt</li>
+    <li IfModActive="SK.BandageWrap">1.6/Bandage Wraps</li>
+    <li IfModActive="Gerrymon.StylizedSlaveCollar">1.6/Stylized Slave Collars and Headgears</li>
+    <li IfModActive="cyanobot.toddlers">1.6/Toddlers</li>
     <li IfModActive="XMB.AncientUrbanrUins.MO">1.6/Ancient Urban Ruins</li>
     <li IfModActive="Trickity.Samurai.Faction">1.6/Samurai Faction</li>
     <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule"

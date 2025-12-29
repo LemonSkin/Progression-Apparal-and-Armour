@@ -53,7 +53,7 @@
     <xpath>Defs/ThingDef[defName="RBME_Panoply"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_SpacerArmor</li>
+        <li>LemonSkin_UltraArmor</li>
       </thingCategories>
     </value>
   </Operation>
@@ -180,7 +180,7 @@
     <xpath>Defs/ThingDef[defName="RBME_Cowbell"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

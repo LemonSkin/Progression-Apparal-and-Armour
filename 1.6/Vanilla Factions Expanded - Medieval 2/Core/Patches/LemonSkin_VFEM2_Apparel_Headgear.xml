@@ -55,7 +55,7 @@
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_JesterHat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -205,7 +205,7 @@
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_PlagueMask"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -377,7 +377,7 @@
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Chaperon"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -416,7 +416,7 @@
     <xpath>Defs/ThingDef[defName="VFEM2_Apparel_Cap"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

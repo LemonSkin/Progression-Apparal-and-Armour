@@ -10,8 +10,8 @@
     </value>
   </Operation>
   <!-- AM_FullyEnclosedHelmet - fully enclosed helmet-->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="AM_FullyEnclosedHelmet"]/thingCategories</xpath>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AM_FullyEnclosedHelmet"]</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_IndustrialArmorHeadgear</li>
@@ -19,8 +19,8 @@
     </value>
   </Operation>
   <!-- AM_NightVisionHelmet - night vision helmet-->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="AM_NightVisionHelmet"]/thingCategories</xpath>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="AM_NightVisionHelmet"]</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_IndustrialArmorHeadgear</li>

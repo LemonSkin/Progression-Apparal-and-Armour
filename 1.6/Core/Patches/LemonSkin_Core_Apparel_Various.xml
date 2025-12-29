@@ -77,6 +77,18 @@
   </Operation>
   <!-- Apparel_PlateArmor -->
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PlateArmor"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>10</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PlateArmor"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>200</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_PlateArmor"]/thingCategories</xpath>
     <value>
       <thingCategories>

@@ -44,6 +44,17 @@
     <label>headgear</label>
     <parent>LemonSkin_SpacerArmor</parent>
   </ThingCategoryDef>
+  <!-- Ultra-tech -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraArmor</defName>
+    <label>ultra-tech armor</label>
+    <parent>ApparelArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraArmorHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_UltraArmor</parent>
+  </ThingCategoryDef>
   <!-- Era Apparel Categories -->
   <!-- Neolithic -->
   <ThingCategoryDef>
@@ -52,7 +63,7 @@
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
-    <defName>LemonSkin_NeolithicApparelHeadgear</defName>
+    <defName>LemonSkin_NeolithicHeadgear</defName>
     <label>headgear</label>
     <parent>LemonSkin_NeolithicApparel</parent>
   </ThingCategoryDef>
@@ -63,12 +74,12 @@
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
-    <defName>LemonSkin_MedievalApparelHeadgear</defName>
+    <defName>LemonSkin_MedievalHeadgear</defName>
     <label>headgear</label>
     <parent>LemonSkin_MedievalApparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
-    <defName>LemonSkin_MedievalApparelUtility</defName>
+    <defName>LemonSkin_MedievalUtility</defName>
     <label>utility</label>
     <parent>LemonSkin_MedievalApparel</parent>
   </ThingCategoryDef>
@@ -79,7 +90,7 @@
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
-    <defName>LemonSkin_IndustrialApparelHeadgear</defName>
+    <defName>LemonSkin_IndustrialHeadgear</defName>
     <label>headgear</label>
     <parent>LemonSkin_IndustrialApparel</parent>
   </ThingCategoryDef>
@@ -90,11 +101,37 @@
     <parent>Apparel</parent>
   </ThingCategoryDef>
   <ThingCategoryDef>
-    <defName>LemonSkin_SpacerApparelHeadgear</defName>
+    <defName>LemonSkin_SpacerHeadgear</defName>
     <label>headgear</label>
     <parent>LemonSkin_SpacerApparel</parent>
   </ThingCategoryDef>
+  <!-- Ultra-tech -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraApparel</defName>
+    <label>ultra-tech apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_UltraApparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraUtility</defName>
+    <label>utility</label>
+    <parent>LemonSkin_UltraApparel</parent>
+  </ThingCategoryDef>
   <!-- Other Categories -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_PrisonerApparel</defName>
+    <label>prisoner apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_PrisonerHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_PrisonerApparel</parent>
+  </ThingCategoryDef>
   <ThingCategoryDef>
     <defName>LemonSkin_Workwear</defName>
     <label>workwear</label>

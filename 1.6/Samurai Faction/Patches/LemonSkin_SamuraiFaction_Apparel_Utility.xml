@@ -13,7 +13,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_SashimonoBanner"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiApparelUtility</li>
+        <li>LemonSkin_MedievalUtility</li>
       </thingCategories>
     </value>
   </Operation>
@@ -46,7 +46,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_SmokeBomb"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiApparelUtility</li>
+        <li>LemonSkin_MedievalUtility</li>
       </thingCategories>
     </value>
   </Operation>

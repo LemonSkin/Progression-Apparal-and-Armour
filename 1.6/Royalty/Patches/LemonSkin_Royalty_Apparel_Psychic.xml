@@ -5,7 +5,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_PsyfocusHelmet"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SpacerApparelHeadgear</li>
+        <li>LemonSkin_UltraHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -14,7 +14,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_EltexSkullcap"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SpacerApparelHeadgear</li>
+        <li>LemonSkin_UltraHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -23,7 +23,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_PsyfocusShirt"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SpacerApparel</li>
+        <li>LemonSkin_UltraApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -32,7 +32,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_PsyfocusVest"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SpacerApparel</li>
+        <li>LemonSkin_UltraApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -41,7 +41,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_PsyfocusRobe"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SpacerApparel</li>
+        <li>LemonSkin_UltraApparel</li>
       </thingCategories>
     </value>
   </Operation>

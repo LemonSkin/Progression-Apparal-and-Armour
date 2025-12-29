@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingCategoryDef[defName="ApparelBaby"]/label</xpath>
+    <value>
+      <label>baby apparel</label>
+    </value>
+  </Operation>
+</Patch>

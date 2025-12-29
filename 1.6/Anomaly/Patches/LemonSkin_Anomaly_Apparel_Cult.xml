@@ -4,7 +4,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_CultistMask"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -12,7 +12,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_CeremonialCultistMask"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

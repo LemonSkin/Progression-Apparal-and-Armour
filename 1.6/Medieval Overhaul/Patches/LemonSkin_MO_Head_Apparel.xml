@@ -5,7 +5,7 @@
     <xpath>Defs/ThingDef[@Name="DankPyon_HatMakeableBase"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -202,6 +202,12 @@
     </value>
   </Operation>
   <!-- DankPyon_Headgear_ZweihandersHat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/label</xpath>
+    <value>
+      <label>zweihander hat</label>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/recipeMaker/researchPrerequisite</xpath>
     <value>
@@ -631,7 +637,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihanderHelm"]/label</xpath>
     <value>
-      <label>zweihander's helm</label>
+      <label>zweihander helm</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">

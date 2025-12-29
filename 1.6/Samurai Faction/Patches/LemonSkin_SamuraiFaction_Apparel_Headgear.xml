@@ -47,7 +47,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_Headband"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -56,7 +56,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_NinjaMask"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiArmorHeadgear</li>
+        <li>LemonSkin_MedievalArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -100,7 +100,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruHelmet"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiArmorHeadgear</li>
+        <li>LemonSkin_MedievalArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -153,7 +153,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiHelmet"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiArmorHeadgear</li>
+        <li>LemonSkin_MedievalArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -216,7 +216,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoHelmet"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiArmorHeadgear</li>
+        <li>LemonSkin_MedievalArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

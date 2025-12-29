@@ -27,7 +27,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Balaclava"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -36,7 +36,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_GhillieHood"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -45,7 +45,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_HAZMATMask"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
         <li>LemonSkin_WorkwearHeadgear</li>
       </thingCategories>
     </value>

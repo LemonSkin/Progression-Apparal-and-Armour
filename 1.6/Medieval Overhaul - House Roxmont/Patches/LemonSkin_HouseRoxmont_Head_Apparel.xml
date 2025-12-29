@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihanderHelmRoxmont"]/label</xpath>
+    <value>
+      <label>zweihander helm (Roxmont)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HeraldicGreatHelmRoxmont"]/label</xpath>
+    <value>
+      <label>heraldic great helm (Roxmont)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HeraldicGreatHelmRoxmont"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <value>
+      <Crafting>9</Crafting>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HeraldicGreatHelmRoxmont"]</xpath>
+    <value>
+      <statBases>
+        <Insulation_Cold>10</Insulation_Cold>
+      </statBases>
+    </value>
+  </Operation>
+</Patch>

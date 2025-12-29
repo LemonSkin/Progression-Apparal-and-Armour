@@ -19,7 +19,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_Gi"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_SamuraiApparel</li>
+        <li>LemonSkin_MedievalApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -42,7 +42,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_NinjaTools"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_SamuraiApparel</li>
+        <li>LemonSkin_MedievalApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -71,7 +71,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_Kimono"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_SamuraiApparel</li>
+        <li>LemonSkin_MedievalApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -100,7 +100,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_Yukata"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_SamuraiApparel</li>
+        <li>LemonSkin_MedievalApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -135,7 +135,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_HaoriJacket"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_SamuraiApparel</li>
+        <li>LemonSkin_MedievalApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -192,7 +192,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_AshigaruArmor"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiArmor</li>
+        <li>LemonSkin_MedievalArmor</li>
       </thingCategories>
     </value>
   </Operation>
@@ -237,7 +237,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_SamuraiArmor"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiArmor</li>
+        <li>LemonSkin_MedievalArmor</li>
       </thingCategories>
     </value>
   </Operation>
@@ -292,7 +292,7 @@
     <xpath>Defs/ThingDef[defName="TSFApparel_DaimyoArmor"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_SamuraiArmor</li>
+        <li>LemonSkin_MedievalArmor</li>
       </thingCategories>
     </value>
   </Operation>

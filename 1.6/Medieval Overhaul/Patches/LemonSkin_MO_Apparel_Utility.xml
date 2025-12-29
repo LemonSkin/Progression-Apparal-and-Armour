@@ -31,7 +31,7 @@
     <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Quiver"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_MedievalApparelUtility</li>
+        <li>LemonSkin_MedievalUtility</li>
       </thingCategories>
     </value>
   </Operation>

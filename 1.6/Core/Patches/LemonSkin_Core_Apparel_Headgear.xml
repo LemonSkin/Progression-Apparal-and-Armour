@@ -5,7 +5,7 @@
     <xpath>Defs/ThingDef[@Name="HatBase"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -14,7 +14,7 @@
     <xpath>Defs/ThingDef[@Name="HatMakeableBase"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -79,7 +79,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_TribalHeaddress"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -88,7 +88,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_WarMask"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -97,7 +97,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_WarVeil"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -146,7 +146,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_HatHood"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

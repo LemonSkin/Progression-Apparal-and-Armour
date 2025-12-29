@@ -39,7 +39,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Scarf"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -77,7 +77,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Beret"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -117,7 +117,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Hardhat"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
         <li>LemonSkin_WorkwearHeadgear</li>
       </thingCategories>
     </value>
@@ -149,7 +149,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_SurgicalMask"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
         <li>LemonSkin_WorkwearHeadgear</li>
       </thingCategories>
     </value>
@@ -182,7 +182,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_BaseballCap"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -205,7 +205,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Sunglasses"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -220,7 +220,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_Glasses"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -258,7 +258,7 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_ChefsToque"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
         <li>LemonSkin_WorkwearHeadgear</li>
       </thingCategories>
     </value>

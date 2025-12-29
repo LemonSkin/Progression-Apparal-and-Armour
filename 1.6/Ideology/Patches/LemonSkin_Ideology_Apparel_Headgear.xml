@@ -5,7 +5,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_Headwrap"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -20,7 +20,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_Broadwrap"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -35,7 +35,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_VisageMask"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -51,19 +51,8 @@
     <xpath>Defs/ThingDef[defName="Apparel_Collar"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
-        <li>LemonSkin_WorkwearHeadgear</li>
+        <li>LemonSkin_PrisonerHeadgear</li>
       </thingCategories>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="Apparel_Collar"]/recipeMaker</xpath>
-    <value>
-      <recipeUsers>
-        <li>ElectricTailoringBench</li>
-        <li>HandTailoringBench</li>
-        <li>CraftingSpot</li>
-      </recipeUsers>
     </value>
   </Operation>
   <!-- Apparel_AuthorityCap -->
@@ -71,7 +60,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_AuthorityCap"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialApparelHeadgear</li>
+        <li>LemonSkin_IndustrialHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -86,7 +75,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_Tailcap"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -101,7 +90,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicApparelHeadgear</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -123,7 +112,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_Flophat"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_MedievalApparelHeadgear</li>
+        <li>LemonSkin_MedievalHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

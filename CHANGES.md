@@ -26,6 +26,7 @@ Nudity settings have been tweaked where appropriate, mostly for headgear. Hats, 
 * Beret, Corset, Formal shirt, Formal vest, Ladies hat, and Top hat require Complex clothing + Noble apparel
 * Royal apparel only requires Noble apparel research (Rustic clothing is implicitly unlocked)
 * Crown and Cornet also require Smithing
+* Added apparel items to appropriate thing categories
 
 ## Ideology
 * Moved the following to Rustic clothing:
@@ -236,52 +237,114 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 ## T's Samurai Faction
 * Rebalanced
 
+## Bandage Wraps (Continued)
+* Fixed labels
+* Replaced MedicalTendQualityOffset with InjuryHealingFactor
+* Increased shooting nerf
+* Rebalanced stats - bandages now provide no armour
+* Added VAE_SterileAttire researchPrerequisite for sterile bandages if Vanilla Apparel Expanded installed
+
+## Stylized Slave Collars and Headgears
+* Bridle moved to SlaveApparelHeadgear category
+
+## Toddlers
+* Renamed baby apparel category to fit naming convention
+
+## Leaf Skirt
+* Removed most stats, added to LemonSkin_NeolithicApparel category
+
+## Prisoner Jumpsuits
+* Rebalanced and added to SlaveApparel category
+* Requires Work Attire research if Vanilla Apparel Expanded installed
+
+## Roo's Painting Expansion
+* Rebalanced and relabeled smock and beret
+* Added to Medieval and Workwear categories
+
+## Medieval Overhaul - House Roxmont
+* Fixed labels, rebalanced and added to appropriate categories
+
+## Police Uniforms
+* Rebalanced, added to Industrial apparel and Workwear categories
+* Requires Work Attire research if Vanilla Apparel Expanded installed
+
+## Epochs - Golems
+* Rebalanced items, fixed layers and added to appropriate categories
+
+## Dresses in the Rim
+* Rebalanced, added to appropriate categories
+
+## Vanilla Genetics Expanded
+* Added pelt rugs to Rugs research if MO installed
+
+## Vanilla Factions Expanded - Pirates
+* Added Privateer armour Rumsuit to appropriate categories
+
+## Ancient Urban Ruins
+* Added armours to appropriate categories
+* TODO: Rebalance
+
+## Vanilla Quests Expanded - Cryptoforge
+* Added Crypto armours to ultra-tech armour category
+
+## Vanilla Quests Expanded - Generator
+* Added ancient tight parka to spacer apparel category
+
+## Vanilla Quests Expanded - Deadlife
+* Added apparel to appropriate categories
+* TODO: Rebalance
+
+## Vanilla Quests Expanded - Ancients
+* Added apparel to appropriate categories
+
+## Vanilla Psycasts Expanded
+* Rebalanced prestige plate armour
+* Added apparels to appropriate categories
+
+## Gravship Captain Set
+* Added to appropriate categories
+
+## Rainbow Forest
+* Added Rainbow-catcher armor to spacer armor categories
+* TODO: Rebalance
+
+## Spacer Arsenal
+* Added to appropriate categories
+* TODO: Rebalance
+
+## Impact Weaponry - Reloaded
+* Added to appropriate categories
+* TODO: Rebalance
+
+## Altered Carbon 2: ReSleeved
+* Added to appropriate categories
+* TODO: Rebalance
+
+## Vanilla Factions Expanded - Empire
+
+
+
 ## TODO:
-* Vanilla Genentics Expanded: 
-    * Muffalo pelt rug, Wolf rug, Huge bear rug, Huge Bearcat Rug
 * ReSplice: Charmweavers
     * Slave outfit
 * Det's Xenotypes - Avaloi
 * Det's Xenotypes - Venators
 * Det's Xenotypes - Brawnum
 
-* Dresses in the Rim
 * Vanilla Apparel Expanded - Accessories
-* Ancient Urban Ruins
 * Oracles Miscellania
 * VFE - Settlers
 * VFE - Empire
 * VRE - Fungoid
-* VFE - Pirates
-* Vanilla Quests Expanded - Cryptoforge
-* Vanilla Quests Expanded - Generator
-* Vanilla Quests Expanded - Deadlife
-* Vanilla Quests Expanded - Ancients
-* Vanilla Psycasts Expanded
 * Vanilla Anomaly Expanded - Insanity
+* Vanilla Gravship Expanded
 
-* Altered Carbon 2: ReSleeved
-* Impact Weaponry - Reloaded
 * Alpha Genes
-* Bandage Wraps (Continued) 
-* Spacer Arsenal
-* Gravship Captain Set
 * Kid Apparel Expanded
-* Rainbow forest
 * Prim's Hair
 * UNAGI Another Duster Coat
 * UNAGI Apparel MOD Winter clothing
 * Decorations and dishes at Gorgeous banquet
-* Epochs - Golems
-* Police Uniforms
-* Medieval Overhaul: House Roxmont
-* Roo's Painting Expansion
-* Prisoner Jumpsuits
-* Leaf Skirt
-* Stylized Slave Collars and Headgears
-* Toddlers
-
-
 
 
 # Bug Fixes
@@ -294,3 +357,4 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Roo's Satyr Xenotype: Lute, lyre, reed flute, bodhran,
 * VFE-M2: Heavy mace, shortsword, flail, throwing axes,
 * Vanilla Weapons Expanded: Hammer, axe, throwing knives, long whip, 
+
