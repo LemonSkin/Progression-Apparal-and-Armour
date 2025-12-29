@@ -321,8 +321,8 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * TODO: Rebalance
 
 ## Vanilla Factions Expanded - Empire
-
-
+* Added to appropriate categories
+* TODO: Rebalance
 
 ## TODO:
 * ReSplice: Charmweavers
