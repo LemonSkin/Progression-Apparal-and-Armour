@@ -83,29 +83,21 @@
 
 
 
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_CinderellaTiaraArmor"]/recipeMaker</xpath>
-    <value>
-      <recipeMaker Inherit="False" IsNull="True" />
-    </value>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaTiaraArmor"]</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_CinderellaDressArmor"]/recipeMaker</xpath>
-    <value>
-      <recipeMaker Inherit="False" IsNull="True" />
-    </value>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaDressArmor"]</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_CinderellaGlovesArmor"]/recipeMaker</xpath>
-    <value>
-      <recipeMaker Inherit="False" IsNull="True" />
-    </value>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaGlovesArmor"]</xpath>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Apparel_CinderellaShoesArmor"]/recipeMaker</xpath>
-    <value>
-      <recipeMaker Inherit="False" IsNull="True" />
-    </value>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Apparel_CinderellaShoesArmor"]</xpath>
   </Operation>
+
 
 </Patch>
