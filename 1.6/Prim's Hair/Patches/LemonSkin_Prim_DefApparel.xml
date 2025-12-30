@@ -47,7 +47,7 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="PH_Bunnysuit"]/thingCategories</xpath>
+    <xpath>Defs/ThingDef[defName="PH_BunnyHeadband"]/thingCategories</xpath>
     <value>
       <thingCategories>
         <li>LemonSkin_IndustrialHeadgear</li>

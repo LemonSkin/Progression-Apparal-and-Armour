@@ -375,8 +375,12 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Added various outfits to appropriate medieval categories
 * TODO: Rebalance
 
-## TODO:
+## TODO - Other:
 * Vanilla Apparel Expanded - Accessories
+* Costumes - Add a Costume category, balance all costumes to be equivalent in stats to t-shirt + pants. These provide no stat bonuses.
+* Vanity Items - Add a Vanity category, balance all vanity to be equivalent in stats to button-down shirt + pants. These provide no stat bonuses.
+* Move shields to appropriate armour categories
+* Sort out utilities into appropriate categories
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO
