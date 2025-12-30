@@ -36,4 +36,94 @@
       </thingCategories>
     </value>
   </Operation>
+  <!-- oracle_EarthEmpireEngineer -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_EarthEmpireEngineer"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_EarthEmpireEngineerHat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_EarthEmpireEngineerHat"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_KyoshiArmor -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_KyoshiArmor"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_KyoshiHeaddress -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_KyoshiHeaddress"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_EqualistUniform -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_EqualistUniform"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_EqualistHat -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_EqualistHat"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_EqualistAmonMask -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_EqualistAmonMask"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_KorraOutfit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_KorraOutfit"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_AsamiRacing -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_AsamiRacing"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- oracle_AsamiDress -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="oracle_AsamiDress"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
 </Patch>

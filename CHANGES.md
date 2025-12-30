@@ -369,11 +369,14 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Added to IndustrialApparel, slight stat rebalances
 
 ## Vanilla Gravship Expanded
+* Added Prestige Vacsuit and Helmet to appropriate categories
+
+## Oracle's Miscellania
+* Added various outfits to appropriate medieval categories
+* TODO: Rebalance
 
 ## TODO:
-
 * Vanilla Apparel Expanded - Accessories
-* Oracles Miscellania
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO
