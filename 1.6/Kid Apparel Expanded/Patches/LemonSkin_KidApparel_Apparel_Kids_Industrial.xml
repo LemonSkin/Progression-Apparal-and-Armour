@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_KidFlakVest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_KidFlakVest"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_KidFlakVest -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_KidFlakPants"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_KidFlakJacket -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_KidFlakJacket"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Goblins4Lyfe_KidArmorPowerBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="Apparel_Goblins4Lyfe_KidArmorPowerBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- Apparel_Goblins4Lyfe_KidArmorReconBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="Apparel_Goblins4Lyfe_KidArmorReconBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_KidArmor</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

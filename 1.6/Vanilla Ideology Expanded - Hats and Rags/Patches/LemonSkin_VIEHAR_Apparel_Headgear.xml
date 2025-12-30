@@ -140,7 +140,7 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_BrimlessHat"]/recipeMaker/researchPrerequisites</xpath>
       <value>
-        <researchPrerequisite>ComplexClothing</researchPrerequisite>
+        <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
       </value>
     </match>
     <nomatch Class="PatchOperationAdd">

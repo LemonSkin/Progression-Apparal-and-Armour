@@ -96,10 +96,10 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 
 ## TODO: Medieval Overhaul + Royalty
 * Added Noble apparel requirement to the following:
-    * Zweihander's hat
-    * Zweihander's helm
-    * Zweihander's cuirass
-    * Zweihander's cuirass (puffy)
+    * Zweihander hat
+    * Zweihander helm
+    * Zweihander cuirass
+    * Zweihander cuirass (puffy)
     * Fur cloak
 * Added Royal apparel requirement to the following:
     * Gilded full plate
@@ -248,7 +248,8 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Bridle moved to SlaveApparelHeadgear category
 
 ## Toddlers
-* Renamed baby apparel category to fit naming convention
+* Moved all items to Kid apparel category
+* Baby tribalwear now requires VFET_Tribalwear research if VFET installed
 
 ## Leaf Skirt
 * Removed most stats, added to LemonSkin_NeolithicApparel category
@@ -279,6 +280,9 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 
 ## Vanilla Factions Expanded - Pirates
 * Added Privateer armour Rumsuit to appropriate categories
+
+## Vanilla Factions Expanded - Settlers
+* Added apparel to appropriate categories, renamed vest to Cowboy Vest
 
 ## Ancient Urban Ruins
 * Added armours to appropriate categories
@@ -324,28 +328,52 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 * Added to appropriate categories
 * TODO: Rebalance
 
+## Alpha Genes
+* Added to appropriate categories
+* TODO: Rebalance
+
+## Kid Apparel Expanded
+* Added to appropriate categories
+
+## Vanilla Races Expanded - Fungoid
+* Added to appropriate categories
+
+## UNAGI Another Duster Coat
+* Added items to IndustrialApparel category
+
+## UNAGI Apparel MOD Winter clothing
+* Added items to IndustrialApparel category
+* Added ComplexClothing research requirement
+* Rebalanced apparel to be equivalent to vanilla Jacket
+
+## Vanilla Anomaly Expanded - Insanity
+* Added items to PrisonerApparel category
+
+## ReSplice: Charmweavers
+* Added items to PrisonerApparel category, rebalanced
+
+## Det's Xenotypes - Avaloi
+* Added Trilense glasses to IndustrialHeadgear, rebalanced slightly, added ComplexClothing research requirement
+
+## Det's Xenotypes - Venators
+* Added Hunter Visage to SpacerArmorHeadgear, changed research to require ReconArmor
+* TODO: Rebalance
+
+## Det's Xenotypes - Brawnum
+* Added hay sunhat to MedievalApparelHeadgear, slightly rebalanced
+
+## Prim's Hair
+* Added to IndustrialApparel, slight stat rebalance
+
+## Decorations and dishes at Gorgeous banquet
+* Added to IndustrialApparel, slight stat rebalances
+
+## Vanilla Gravship Expanded
+
 ## TODO:
-* ReSplice: Charmweavers
-    * Slave outfit
-* Det's Xenotypes - Avaloi
-* Det's Xenotypes - Venators
-* Det's Xenotypes - Brawnum
 
 * Vanilla Apparel Expanded - Accessories
 * Oracles Miscellania
-* VFE - Settlers
-* VFE - Empire
-* VRE - Fungoid
-* Vanilla Anomaly Expanded - Insanity
-* Vanilla Gravship Expanded
-
-* Alpha Genes
-* Kid Apparel Expanded
-* Prim's Hair
-* UNAGI Another Duster Coat
-* UNAGI Apparel MOD Winter clothing
-* Decorations and dishes at Gorgeous banquet
-
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO

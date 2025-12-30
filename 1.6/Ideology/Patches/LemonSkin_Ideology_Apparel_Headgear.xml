@@ -94,8 +94,17 @@
       </thingCategories>
     </value>
   </Operation>
-  <Operation Class="PatchOperationRemove">
-    <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker/researchPrerequisite</xpath>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Tribalwear"]</xpath>
+    <match Class="PatchOperationReplace">
+      <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker/researchPrerequisite</xpath>
+      <value>
+        <researchPrerequisite>VFET_Tribalwear</researchPrerequisite>
+      </value>
+    </match>
+    <nomatch Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker/researchPrerequisite</xpath>
+    </nomatch>
   </Operation>
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_Shadecone"]/recipeMaker</xpath>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- <Operation Class="PatchOperationConditional">
+  <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="TSFApparel_KidKamon"]</xpath>
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="TSFApparel_KidKamon"]/thingCategories</xpath>
       <value>
-        <thingCategories>
-          <li>LemonSkin_SamuraiApparel</li>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_KidApparel</li>
         </thingCategories>
       </value>
     </match>
@@ -16,10 +16,10 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="TSFApparel_KidGi"]/thingCategories</xpath>
       <value>
-        <thingCategories>
-          <li>LemonSkin_SamuraiApparel</li>
+        <thingCategories Inherit="False">
+          <li>LemonSkin_KidApparel</li>
         </thingCategories>
       </value>
     </match>
-  </Operation> -->
+  </Operation>
 </Patch>

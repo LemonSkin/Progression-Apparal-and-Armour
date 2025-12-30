@@ -37,7 +37,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_KidHelmet"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_KidHeadgear</li>
+        <li>LemonSkin_KidArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

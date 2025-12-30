@@ -1,18 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Defs>
-  <ThingCategoryDef>
-    <defName>LemonSkin_KidApparel</defName>
-    <label>kid apparel</label>
-    <parent>Apparel</parent>
-  </ThingCategoryDef>
-  <ThingCategoryDef>
-    <defName>LemonSkin_KidArmor</defName>
-    <label>armor</label>
-    <parent>LemonSkin_KidApparel</parent>
-  </ThingCategoryDef>
-  <ThingCategoryDef>
-    <defName>LemonSkin_KidHeadgear</defName>
-    <label>headgear</label>
-    <parent>LemonSkin_KidApparel</parent>
-  </ThingCategoryDef>
-</Defs>
+<Defs></Defs>

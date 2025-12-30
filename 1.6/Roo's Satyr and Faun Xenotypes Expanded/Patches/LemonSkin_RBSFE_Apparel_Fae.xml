@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- FaeApparelBase -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[@Name="FaeApparelBase"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- RBSFE_Faegarms -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="RBSFE_Faegarms"]/statBases</xpath>
@@ -27,7 +35,7 @@
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="RBSFE_KidFaegarms"]</xpath>
     <value>
-      <thingCategories>
+      <thingCategories Inherit="False">
         <li>LemonSkin_KidApparel</li>
       </thingCategories>
     </value>
@@ -198,11 +206,11 @@
       </equippedStatOffsets>
     </value>
   </Operation>
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faecrown"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>RBSFE_FaeApparelCategory</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -234,6 +242,14 @@
         <RBSF_NatureConnectionOffset>0.05</RBSF_NatureConnectionOffset>
         <SocialImpact>0.05</SocialImpact>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faerose"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- RBSFE_Faecap -->
@@ -270,7 +286,7 @@
     <xpath>Defs/ThingDef[defName="RBSFE_Faecap"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>RBSFE_FaeApparelCategory</li>
+        <li>LemonSkin_NeolithicHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -310,6 +326,14 @@
       <bodyPartGroups>
         <li>Neck</li>
       </bodyPartGroups>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="RBSFE_Faescarf"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_NeolithicHeadgear</li>
+      </thingCategories>
     </value>
   </Operation>
   <!-- RBSF_Faehelm -->

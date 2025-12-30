@@ -2,6 +2,14 @@
 <loadFolders>
   <v1.6>
     <!-- For rebalances -->
+    <li IfModActive="det.brawnum">1.6/Det's Xenotypes - Brawnum</li>
+    <li IfModActive="det.venators">1.6/Det's Xenotypes - Venators</li>
+    <li IfModActive="det.avaloi">1.6/Det's Xenotypes - Avaloi</li>
+    <li IfModActive="VanillaExpanded.VAnomalyEInsanity">1.6/Vanilla Anomaly Expanded - Insanity</li>
+    <li IfModActive="UNAGI.huyuhuku.SET">1.6/UNAGI Winter Clothing</li>
+    <li IfModActive="vanillaracesexpanded.fungoid">1.6/Vanilla Races Expanded - Fungoid</li>
+    <li IfModActive="KidApparelExpanded.Goblins4Lyfe">1.6/Kid Apparel Expanded</li>
+    <li IfModActive="sarg.alphagenes">1.6/Alpha Genes</li>
     <li IfModActive="OskarPotocki.VFE.Empire">1.6/Vanilla Factions Expanded - Empire</li>
     <li IfModActive="hlx.UltratechAlteredCarbon">1.6/Altered Carbon</li>
     <li IfModActive="detvisor.impactweaponryreloaded">1.6/Impact Weaponry - Reloaded</li>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- PH_Bunnysuit -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PH_Bunnysuit"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.5</Mass>
+        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.05</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.05</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PH_Bunnysuit"]/equippedStatOffsets</xpath>
+    <value>
+      <equippedStatOffsets>
+        <SocialImpact>0.05</SocialImpact>
+      </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PH_Bunnysuit"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_IndustrialApparel</li>
+      </thingCategories>
+    </value>
+  </Operation>
+  <!-- PH_BunnyHeadband -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PH_BunnyHeadband"]/statBases</xpath>
+    <value>
+      <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.00</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.00</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PH_Bunnysuit"]/thingCategories</xpath>
+    <value>
+      <thingCategories>
+        <li>LemonSkin_IndustrialHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>

@@ -38,14 +38,11 @@
       </thingCategories>
     </value>
   </Operation>
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/VFETribals.TribalResearchProjectDef[defName="VFET_Culture"]</xpath>
-    <match Class="PatchOperationAdd">
-      <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/recipeMaker</xpath>
-      <value>
-        <researchPrerequisite>VFET_Culture</researchPrerequisite>
-      </value>
-    </match>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Sackcloth"]/recipeMaker</xpath>
+    <value>
+      <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
+    </value>
   </Operation>
   <!-- DankPyon_Apparel_Leather_Tunic - Vest -->
   <Operation Class="PatchOperationReplace">

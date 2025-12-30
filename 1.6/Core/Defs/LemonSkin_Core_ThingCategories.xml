@@ -11,6 +11,11 @@
     <label>headgear</label>
     <parent>LemonSkin_NeolithicArmor</parent>
   </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicShields</defName>
+    <label>shields</label>
+    <parent>LemonSkin_NeolithicArmor</parent>
+  </ThingCategoryDef>
   <!-- Medieval -->
   <ThingCategoryDef>
     <defName>LemonSkin_MedievalArmor</defName>
@@ -20,6 +25,11 @@
   <ThingCategoryDef>
     <defName>LemonSkin_MedievalArmorHeadgear</defName>
     <label>headgear</label>
+    <parent>LemonSkin_MedievalArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalShields</defName>
+    <label>shields</label>
     <parent>LemonSkin_MedievalArmor</parent>
   </ThingCategoryDef>
   <!-- Industrial -->
@@ -33,6 +43,11 @@
     <label>headgear</label>
     <parent>LemonSkin_IndustrialArmor</parent>
   </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialShields</defName>
+    <label>shields</label>
+    <parent>LemonSkin_IndustrialArmor</parent>
+  </ThingCategoryDef>
   <!-- Spacer -->
   <ThingCategoryDef>
     <defName>LemonSkin_SpacerArmor</defName>
@@ -42,6 +57,11 @@
   <ThingCategoryDef>
     <defName>LemonSkin_SpacerArmorHeadgear</defName>
     <label>headgear</label>
+    <parent>LemonSkin_SpacerArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerShields</defName>
+    <label>shields</label>
     <parent>LemonSkin_SpacerArmor</parent>
   </ThingCategoryDef>
   <!-- Ultra-tech -->
@@ -54,6 +74,48 @@
     <defName>LemonSkin_UltraArmorHeadgear</defName>
     <label>headgear</label>
     <parent>LemonSkin_UltraArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraShields</defName>
+    <label>shields</label>
+    <parent>LemonSkin_UltraArmor</parent>
+  </ThingCategoryDef>
+  <!-- Kid -->
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>LemonSkin_KidArmor</defName>
+    <label>kid armor</label>
+    <parent>ApparelArmor</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>LemonSkin_KidArmorHeadgear</defName>
+    <label>armor</label>
+    <parent>LemonSkin_KidArmor</parent>
+  </ThingCategoryDef>
+  <!-- Utilities -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_NeolithicUtility</defName>
+    <label>neolithic utilities</label>
+    <parent>ApparelUtility</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_MedievalUtility</defName>
+    <label>medieval utilities</label>
+    <parent>ApparelUtility</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_IndustrialUtility</defName>
+    <label>industrial utilities</label>
+    <parent>ApparelUtility</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_SpacerUtility</defName>
+    <label>spacer utilities</label>
+    <parent>ApparelUtility</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_UltraUtility</defName>
+    <label>ultra-tech utilities</label>
+    <parent>ApparelUtility</parent>
   </ThingCategoryDef>
   <!-- Era Apparel Categories -->
   <!-- Neolithic -->
@@ -76,11 +138,6 @@
   <ThingCategoryDef>
     <defName>LemonSkin_MedievalHeadgear</defName>
     <label>headgear</label>
-    <parent>LemonSkin_MedievalApparel</parent>
-  </ThingCategoryDef>
-  <ThingCategoryDef>
-    <defName>LemonSkin_MedievalUtility</defName>
-    <label>utility</label>
     <parent>LemonSkin_MedievalApparel</parent>
   </ThingCategoryDef>
   <!-- Industrial -->
@@ -116,12 +173,7 @@
     <label>headgear</label>
     <parent>LemonSkin_UltraApparel</parent>
   </ThingCategoryDef>
-  <ThingCategoryDef>
-    <defName>LemonSkin_UltraUtility</defName>
-    <label>utility</label>
-    <parent>LemonSkin_UltraApparel</parent>
-  </ThingCategoryDef>
-  <!-- Other Categories -->
+  <!-- Prisoner -->
   <ThingCategoryDef>
     <defName>LemonSkin_PrisonerApparel</defName>
     <label>prisoner apparel</label>
@@ -132,6 +184,7 @@
     <label>headgear</label>
     <parent>LemonSkin_PrisonerApparel</parent>
   </ThingCategoryDef>
+  <!-- Workwear -->
   <ThingCategoryDef>
     <defName>LemonSkin_Workwear</defName>
     <label>workwear</label>
@@ -141,5 +194,16 @@
     <defName>LemonSkin_WorkwearHeadgear</defName>
     <label>headgear</label>
     <parent>LemonSkin_Workwear</parent>
+  </ThingCategoryDef>
+  <!-- Kid -->
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>LemonSkin_KidApparel</defName>
+    <label>kid apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
+    <defName>LemonSkin_KidHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_KidApparel</parent>
   </ThingCategoryDef>
 </Defs>

@@ -88,7 +88,7 @@
     <xpath>Defs/ThingDef[defName="Apparel_WarMask"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_NeolithicHeadgear</li>
+        <li>LemonSkin_NeolithicArmorHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

@@ -4,7 +4,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Apparel_Vacsuit"]/thingCategories</xpath>
     <value>
-      <thingCategories>
+      <thingCategories Inherit="False">
         <li>LemonSkin_SpacerArmor</li>
       </thingCategories>
     </value>
@@ -15,9 +15,8 @@
     <match Class="PatchOperationReplace">
       <xpath>Defs/ThingDef[defName="Apparel_VacsuitChildren"]/thingCategories</xpath>
       <value>
-        <thingCategories>
+        <thingCategories Inherit="False">
           <li>LemonSkin_KidArmor</li>
-          <li>LemonSkin_SpacerArmor</li>
         </thingCategories>
       </value>
     </match>
