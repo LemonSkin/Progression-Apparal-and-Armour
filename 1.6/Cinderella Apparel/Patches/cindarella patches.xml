@@ -99,5 +99,20 @@
     <xpath>Defs/ThingDef[defName="Apparel_CinderellaShoesArmor"]</xpath>
   </Operation>
 
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DevApparel_CinderellaTiara"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DevApparel_CinderellaDress"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DevApparel_CinderellaGloves"]</xpath>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="DevApparel_CinderellaShoes"]</xpath>
+  </Operation>
 
 </Patch>
