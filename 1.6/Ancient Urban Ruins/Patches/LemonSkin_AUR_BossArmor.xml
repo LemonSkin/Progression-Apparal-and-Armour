@@ -9,6 +9,8 @@
       </thingCategories>
     </value>
   </Operation>
+
+
   <!-- AM_FullyEnclosedHelmet - fully enclosed helmet-->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="AM_FullyEnclosedHelmet"]</xpath>
@@ -18,6 +20,8 @@
       </thingCategories>
     </value>
   </Operation>
+
+
   <!-- AM_NightVisionHelmet - night vision helmet-->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="AM_NightVisionHelmet"]</xpath>
@@ -27,6 +31,8 @@
       </thingCategories>
     </value>
   </Operation>
+
+
   <!-- AM_CataphractHelmetFashion - cataphract helmet "Fashion"-->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[@Name="AM_CataphractHelmet"]/thingCategories</xpath>
@@ -36,5 +42,15 @@
       </thingCategories>
     </value>
   </Operation>
+
+
   <!-- AM_ClosedOxygenCylinder - closed oxygen cylinder -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="AM_ClosedOxygenCylinder"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
 </Patch>

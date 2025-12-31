@@ -41,4 +41,48 @@
       <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
     </value>
   </Operation>
+
+
+  <!-- DankPyon_Apparel_FlashPotBelt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FlashPotBelt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!--  DankPyon_Apparel_FirePotBelt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_FirePotBelt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!--  DankPyon_Apparel_SmokePotBelt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_SmokePotBelt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!--  DankPyon_Apparel_AcidFlaskBelt -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_AcidFlaskBelt"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_MedievalUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
 </Patch>

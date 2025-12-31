@@ -1,30 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- VAE_Apparel_RiotArmor -->
+  <!-- Apparel_PackControl -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_RiotArmor"]/thingCategories</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_PackControl"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialArmor</li>
-      </thingCategories>
-    </value>
-  </Operation>
-  <!-- VAE_Apparel_RiotHelmet -->
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="VAE_Apparel_RiotHelmet"]/thingCategories</xpath>
-    <value>
-      <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialArmorHeadgear</li>
+        <li>LemonSkin_SpacerUtility</li>
       </thingCategories>
     </value>
   </Operation>
 
-  <!-- VAE_Apparel_BaseShield -->
+
+  <!-- Apparel_PackBandwidth -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[@Name="VAE_Apparel_BaseShield"]/thingCategories</xpath>
+    <xpath>Defs/ThingDef[defName="Apparel_PackBandwidth"]/thingCategories</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialShields</li>
+        <li>LemonSkin_SpacerUtility</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_PackTox -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Apparel_PackTox"]/thingCategories</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_IndustrialUtility</li>
       </thingCategories>
     </value>
   </Operation>

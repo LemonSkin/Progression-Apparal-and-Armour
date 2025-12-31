@@ -44,7 +44,6 @@
     <li IfModActive="BiomesTeam.BiomesFossils">1.6/Biomes! Fossils</li>
     <li IfModActive="tug.Minotaur.Expanded">1.6/Roo's Minotaur Xenotype Expanded</li>
     <li IfModActive="tug.SatyrFaun.Expanded">1.6/Roo's Satyr and Faun Xenotypes Expanded</li>
-    <li IfModActive="Gunmar.VictorianEraApparels">1.6/Victorian Era Apparels!</li>
     <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul"
     >1.6/Vanilla Armor Expanded/Medieval Overhaul</li>
     <li IfModActiveAll="VanillaExpanded.VARME,ludeon.rimworld.royalty"
@@ -68,6 +67,7 @@
     <li>1.6/Core</li>
     <li>/</li>
     <!-- For bench organization -->
+    <li IfModActive="Gunmar.VictorianEraApparels">1.6/Victorian Era Apparels!</li>
     <li IfModActive="UNAGI.huyuhuku.SET">1.6/UNAGI Winter Clothing</li>
     <li IfModActive="yamazaki.PreschoolerOutfits">1.6/Preschooler Clothes</li>
     <li IfModActive="unagi.ap.dress">1.6/Unagi Royalty</li>
