@@ -171,15 +171,6 @@
 
 
   <!-- oracle_EarthEmpireEngineerHat -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="oracle_EarthEmpireEngineerHat"]</xpath>
-    <value>
-      <costStuffCount>40</costStuffCount>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationRemove">
-    <xpath>Defs/ThingDef[defName="oracle_EarthEmpireEngineerHat"]/costList</xpath>
-  </Operation>
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="oracle_EarthEmpireEngineerHat"]/statBases</xpath>
     <value>
