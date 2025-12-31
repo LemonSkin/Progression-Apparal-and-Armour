@@ -371,8 +371,8 @@
     <xpath>Defs/ThingDef[defName="VAE_Apparel_ChefsUniform"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
-        <CookSpeed>0.1</CookSpeed>
-        <FoodPoisonChance>-0.10</FoodPoisonChance>
+        <CookSpeed>1</CookSpeed>
+        <FoodPoisonChance>-0.025</FoodPoisonChance>
         <ButcheryFleshSpeed>0.05</ButcheryFleshSpeed>
         <ButcheryFleshEfficiency>0.05</ButcheryFleshEfficiency>
       </equippedStatOffsets>

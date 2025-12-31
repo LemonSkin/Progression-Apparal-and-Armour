@@ -249,8 +249,8 @@
     <xpath>Defs/ThingDef[defName="VAE_Headgear_ChefsToque"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
-        <CookSpeed>0.10</CookSpeed>
-        <FoodPoisonChance>-0.10</FoodPoisonChance>
+        <CookSpeed>0.5</CookSpeed>
+        <FoodPoisonChance>-0.025</FoodPoisonChance>
       </equippedStatOffsets>
     </value>
   </Operation>
