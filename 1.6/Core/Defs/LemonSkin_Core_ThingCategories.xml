@@ -195,6 +195,28 @@
     <label>headgear</label>
     <parent>LemonSkin_Workwear</parent>
   </ThingCategoryDef>
+  <!-- Costumes -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_Costume</defName>
+    <label>costumes</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_CostumeHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_Costume</parent>
+  </ThingCategoryDef>
+  <!-- Vanity -->
+  <ThingCategoryDef>
+    <defName>LemonSkin_VanityApparel</defName>
+    <label>vanity apparel</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>LemonSkin_VanityHeadgear</defName>
+    <label>headgear</label>
+    <parent>LemonSkin_VanityApparel</parent>
+  </ThingCategoryDef>
   <!-- Kid -->
   <ThingCategoryDef MayRequire="Ludeon.RimWorld.Biotech">
     <defName>LemonSkin_KidApparel</defName>

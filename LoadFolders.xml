@@ -7,7 +7,6 @@
     <li IfModActive="det.venators">1.6/Det's Xenotypes - Venators</li>
     <li IfModActive="det.avaloi">1.6/Det's Xenotypes - Avaloi</li>
     <li IfModActive="VanillaExpanded.VAnomalyEInsanity">1.6/Vanilla Anomaly Expanded - Insanity</li>
-    <li IfModActive="UNAGI.huyuhuku.SET">1.6/UNAGI Winter Clothing</li>
     <li IfModActive="vanillaracesexpanded.fungoid">1.6/Vanilla Races Expanded - Fungoid</li>
     <li IfModActive="KidApparelExpanded.Goblins4Lyfe">1.6/Kid Apparel Expanded</li>
     <li IfModActive="sarg.alphagenes">1.6/Alpha Genes</li>
@@ -22,14 +21,12 @@
     <li IfModActive="VanillaExpanded.VPsycastsE">1.6/Vanilla Psycasts Expanded</li>
     <li IfModActive="vanillaquestsexpanded.generator">1.6/Vanilla Quests Expanded - Generator</li>
     <li IfModActive="vanillaquestsexpanded.cryptoforge"
-      >1.6/Vanilla Quests Expanded - Cryptoforge</li
-    >
+    >1.6/Vanilla Quests Expanded - Cryptoforge</li>
     <li IfModActive="OskarPotocki.VFE.Pirates">1.6/Vanilla Factions Expanded - Pirates</li>
     <li IfModActive="VanillaExpanded.VGeneticsE">1.6/Vanilla Genetics Expanded</li>
     <li IfModActive="det.epochsgolems">1.6/Epochs - Golems</li>
     <li IfModActive="DankPyon.Medieval.Overhaul.House.Roxmont"
-      >1.6/Medieval Overhaul - House Roxmont</li
-    >
+    >1.6/Medieval Overhaul - House Roxmont</li>
     <li IfModActive="Rooboid.Paintings.Ex">1.6/Roo's Painting Expansion</li>
     <li IfModActive="ocarina.prisonerjumpsuits">1.6/Prisoner Jumpsuits</li>
     <li IfModActive="sd.leafskirt">1.6/Leaf Skirt</li>
@@ -39,8 +36,7 @@
     <li IfModActive="XMB.AncientUrbanrUins.MO">1.6/Ancient Urban Ruins</li>
     <li IfModActive="Trickity.Samurai.Faction">1.6/Samurai Faction</li>
     <li IfModActive="OskarPotocki.VanillaFactionsExpanded.SettlersModule"
-      >1.6/Vanilla Factions Expanded - Settlers</li
-    >
+    >1.6/Vanilla Factions Expanded - Settlers</li>
     <li IfModActive="OskarPotocki.VFE.Medieval2">1.6/Vanilla Factions Expanded - Tribals</li>
     <li IfModActive="OskarPotocki.VFE.Classical">1.6/Vanilla Factions Expanded - Classical</li>
     <li IfModActive="VanillaExpanded.VIEHAR">1.6/Vanilla Ideology Expanded - Hats and Rags</li>
@@ -50,25 +46,19 @@
     <li IfModActive="tug.SatyrFaun.Expanded">1.6/Roo's Satyr and Faun Xenotypes Expanded</li>
     <li IfModActive="Gunmar.VictorianEraApparels">1.6/Victorian Era Apparels!</li>
     <li IfModActiveAll="VanillaExpanded.VARME,DankPyon.Medieval.Overhaul"
-      >1.6/Vanilla Armor Expanded/Medieval Overhaul</li
-    >
+    >1.6/Vanilla Armor Expanded/Medieval Overhaul</li>
     <li IfModActiveAll="VanillaExpanded.VARME,ludeon.rimworld.royalty"
-      >1.6/Vanilla Armor Expanded/Royalty</li
-    >
+    >1.6/Vanilla Armor Expanded/Royalty</li>
     <li IfModActiveAll="VanillaExpanded.VARME">1.6/Vanilla Armor Expanded/Core</li>
     <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.anomaly"
-      >1.6/Vanilla Apparel Expanded/Anomaly</li
-    >
+    >1.6/Vanilla Apparel Expanded/Anomaly</li>
     <li IfModActiveAll="VanillaExpanded.VAPPE,ludeon.rimworld.royalty"
-      >1.6/Vanilla Apparel Expanded/Royalty</li
-    >
+    >1.6/Vanilla Apparel Expanded/Royalty</li>
     <li IfModActive="VanillaExpanded.VAPPE">1.6/Vanilla Apparel Expanded/Core</li>
     <li IfModActiveAll="OskarPotocki.VFE.Medieval2,DankPyon.Medieval.Overhaul"
-      >1.6/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li
-    >
+    >1.6/Vanilla Factions Expanded - Medieval 2/Medieval Overhaul</li>
     <li IfModActive="OskarPotocki.VFE.Medieval2"
-      >1.6/Vanilla Factions Expanded - Medieval 2/Core</li
-    >
+    >1.6/Vanilla Factions Expanded - Medieval 2/Core</li>
     <li IfModActive="DankPyon.Medieval.Overhaul">1.6/Medieval Overhaul</li>
     <li IfModActive="ludeon.rimworld.odyssey">1.6/Odyssey</li>
     <li IfModActive="ludeon.rimworld.anomaly">1.6/Anomaly</li>
@@ -78,6 +68,8 @@
     <li>1.6/Core</li>
     <li>/</li>
     <!-- For bench organization -->
+    <li IfModActive="UNAGI.huyuhuku.SET">1.6/UNAGI Winter Clothing</li>
+    <li IfModActive="yamazaki.PreschoolerOutfits">1.6/Preschooler Clothes</li>
     <li IfModActive="unagi.ap.dress">1.6/Unagi Royalty</li>
     <li IfModActive="mo.size.valentine.apparel">1.6/Bread Mos Valentines Day Apparel</li>
     <li IfModActive="mouse.gloomydress">1.6/Gloomy Dress</li>

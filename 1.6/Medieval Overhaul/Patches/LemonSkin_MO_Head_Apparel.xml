@@ -209,7 +209,8 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>
+      Defs/ThingDef[defName="DankPyon_Headgear_ZweihandersHat"]/recipeMaker/researchPrerequisite</xpath>
     <value>
       <researchPrerequisites>
         <li>DankPyon_ProtectiveClothing</li>
@@ -363,6 +364,27 @@
       </statBases>
     </value>
   </Operation>
+  <!-- DankPyon_Headgear_ChainCoifClosed - chain coif (closed) -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/label</xpath>
+    <value>
+      <label>chain coif (closed)</label>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifClosed"]/statBases</xpath>
+    <value>
+      <statBases>
+        <WorkToMake>7600</WorkToMake>
+        <MaxHitPoints>120</MaxHitPoints>
+        <Mass>2</Mass>
+        <StuffEffectMultiplierArmor>0.40</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.15</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>2.5</EquipDelay>
+      </statBases>
+    </value>
+  </Operation>
   <!-- Full chain coif -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ChainCoifFull"]/statBases</xpath>
@@ -504,6 +526,12 @@
       <equippedStatOffsets>
         <ShootingAccuracyPawn>-4</ShootingAccuracyPawn>
       </equippedStatOffsets>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedChain_FlatTopHelmet"]/label</xpath>
+    <value>
+      <label>chain flat-top helm (closed)</label>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -679,7 +707,8 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ZweihanderHelm"]/recipeMaker/researchPrerequisite</xpath>
+    <xpath>
+      Defs/ThingDef[defName="DankPyon_Headgear_ZweihanderHelm"]/recipeMaker/researchPrerequisite</xpath>
     <value>
       <researchPrerequisites>
         <li>DankPyon_ChainArmor</li>
@@ -690,7 +719,8 @@
   <!-- ==================== Plate Helmets ==================== -->
   <!-- Closed bascinet -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_ClosedBascinetHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="DankPyon_Headgear_ClosedBascinetHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>9</Crafting>
     </value>
@@ -720,7 +750,8 @@
   </Operation>
   <!-- Wolf-ribs bascinet -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_WolfBascinet"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="DankPyon_Headgear_WolfBascinet"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>7</Crafting>
     </value>
@@ -755,7 +786,8 @@
   </Operation>
   <!-- Klappviser bascinet -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>9</Crafting>
     </value>
@@ -775,7 +807,8 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed"]/equippedStatOffsets</xpath>
+    <xpath>
+      Defs/ThingDef[defName="DankPyon_Headgear_Bascinet_KlappvisierHelmetClosed"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
         <ShootingAccuracyPawn>-7.0</ShootingAccuracyPawn>
@@ -785,7 +818,8 @@
   </Operation>
   <!-- Klappviser barbute -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_KlappvisorBascinet"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="DankPyon_Headgear_KlappvisorBascinet"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>9</Crafting>
     </value>
@@ -821,7 +855,8 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="DankPyon_Headgear_HounskullHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="DankPyon_Headgear_HounskullHelmet"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>9</Crafting>
     </value>

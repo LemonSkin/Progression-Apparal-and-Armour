@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
-  <Operation Class="PatchOperationAdd">
+  <!-- I don't think changing Vanilla items is a good idea -->
+  <!-- <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="Apparel_Corset"]</xpath>
     <value>
       <recipeMaker>
@@ -11,6 +12,6 @@
         <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
       </recipeMaker>
     </value>
-  </Operation>
+  </Operation> -->
 
 </Patch>

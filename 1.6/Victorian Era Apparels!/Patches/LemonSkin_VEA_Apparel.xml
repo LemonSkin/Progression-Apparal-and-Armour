@@ -1,29 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or 
-        defName="Gunmar_Apparel_DressB" or
-        defName="Gunmar_Apparel_Maid" or
-        defName="Gunmar_Apparel_Maidb" or
-        defName="Gunmar_Apparel_WalkingDress" or
-        defName="Gunmar_Apparel_RidingHabit" or
-        defName="Gunmar_Apparel_SimpleDress" or
-        defName="Gunmar_Apparel_DressCoat" or
-        defName="Gunmar_Apparel_Frock_Coat" or
-        defName="Gunmar_Apparel_Smoking_Jacket" or
-        defName="Gunmar_Apparel_Waistcoat" or
-        defName="Gunmar_Apparel_Soldier_Coat" or
-        defName="Gunmar_Apparel_Hussar_Jacket" or
-        defName="Gunmar_Apparel_FeatheredHat" or
-        defName="Gunmar_Apparel_MaidHead" or
-        defName="Gunmar_Apparel_MaidHeadb" or
-        defName="Gunmar_Apparel_BoaterHat" or
-        defName="Gunmar_Apparel_TopHat" or
-        defName="Gunmar_Apparel_Soldier_Helmet" or
-        defName="Gunmar_Apparel_Slouch_Hat" or
-        defName="Gunmar_Apparel_Shako_Hat" or
-        defName="Gunmar_Apparel_Glasses" or
-        defName="Gunmar_Apparel_Monocle"]/recipeMaker</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or defName="Gunmar_Apparel_DressB" or
+      defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb" or
+      defName="Gunmar_Apparel_WalkingDress" or defName="Gunmar_Apparel_RidingHabit" or
+      defName="Gunmar_Apparel_SimpleDress" or defName="Gunmar_Apparel_DressCoat" or
+      defName="Gunmar_Apparel_Frock_Coat" or defName="Gunmar_Apparel_Smoking_Jacket" or
+      defName="Gunmar_Apparel_Waistcoat" or defName="Gunmar_Apparel_Soldier_Coat" or
+      defName="Gunmar_Apparel_Hussar_Jacket" or defName="Gunmar_Apparel_FeatheredHat" or
+      defName="Gunmar_Apparel_MaidHead" or defName="Gunmar_Apparel_MaidHeadb" or
+      defName="Gunmar_Apparel_BoaterHat" or defName="Gunmar_Apparel_TopHat" or
+      defName="Gunmar_Apparel_Soldier_Helmet" or defName="Gunmar_Apparel_Slouch_Hat" or
+      defName="Gunmar_Apparel_Shako_Hat" or defName="Gunmar_Apparel_Glasses" or
+      defName="Gunmar_Apparel_Monocle"]/recipeMaker</xpath>
     <value>
       <researchPrerequisites>
         <li>LemonSkin_VictorianEraApparels</li>
@@ -33,71 +22,89 @@
   <!-- Gunmar_Apparel_DressA - adventure dress -->
   <!-- Gunmar_Apparel_DressB - elegant dress -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or defName="Gunmar_Apparel_DressB"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or
+      defName="Gunmar_Apparel_DressB"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>85</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or
+      defName="Gunmar_Apparel_DressB"]/statBases</xpath>
     <value>
       <statBases>
         <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>0.75</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
         <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>3.5</EquipDelay>
       </statBases>
     </value>
   </Operation>
   <Operation Class="PatchOperationRemove">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or defName="Gunmar_Apparel_DressB"]/equippedStatOffsets</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or
+      defName="Gunmar_Apparel_DressB"]/equippedStatOffsets</xpath>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or defName="Gunmar_Apparel_DressB"]/thingCategories</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_DressA" or
+      defName="Gunmar_Apparel_DressB"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
   <!-- Gunmar_Apparel_Maid -->
   <!-- Gunmar_Apparel_Maidb -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/costStuffCount</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or
+      defName="Gunmar_Apparel_Maidb"]/costStuffCount</xpath>
     <value>
-      <costStuffCount>80</costStuffCount>
+      <costStuffCount>85</costStuffCount>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/stuffCategories</xpath>
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or
+  defName="Gunmar_Apparel_Maidb"]/stuffCategories</xpath>
     <value>
       <stuffCategories>
         <li>Fabric</li>
       </stuffCategories>
     </value>
-  </Operation>
+  </Operation> -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/statBases</xpath>
     <value>
       <statBases>
         <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>0.75</Mass>
-        <StuffEffectMultiplierArmor>0.1</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.2</StuffEffectMultiplierInsulation_Cold>
-        <StuffEffectMultiplierInsulation_Heat>0.2</StuffEffectMultiplierInsulation_Heat>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>3.5</EquipDelay>
       </statBases>
     </value>
   </Operation>
-  <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/equippedStatOffsets</xpath>
+  <Operation Class="PatchOperationRemove">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or
+      defName="Gunmar_Apparel_Maidb"]/equippedStatOffsets</xpath>
+  </Operation>
+  <!-- <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or
+  defName="Gunmar_Apparel_Maidb"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
         <CookSpeed>0.1</CookSpeed>
         <CleaningSpeed>0.10</CleaningSpeed>
       </equippedStatOffsets>
     </value>
-  </Operation>
+  </Operation> -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/apparel/bodyPartGroups</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or
+      defName="Gunmar_Apparel_Maidb"]/apparel/bodyPartGroups</xpath>
     <value>
       <bodyPartGroups>
         <li>Torso</li>
@@ -108,11 +115,11 @@
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or defName="Gunmar_Apparel_Maidb"]/thingCategories</xpath>
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Maid" or
+      defName="Gunmar_Apparel_Maidb"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_IndustrialApparel</li>
-        <li>LemonSkin_Workwear</li>
+        <li>LemonSkin_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -120,7 +127,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/costStuffCount</xpath>
     <value>
-      <costStuffCount>80</costStuffCount>
+      <costStuffCount>85</costStuffCount>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -130,7 +137,7 @@
         <MaxHitPoints>100</MaxHitPoints>
         <WorkToMake>4300</WorkToMake>
         <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
         <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
         <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>3.5</EquipDelay>
@@ -141,7 +148,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_WalkingDress"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -149,7 +156,7 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/costStuffCount</xpath>
     <value>
-      <costStuffCount>80</costStuffCount>
+      <costStuffCount>85</costStuffCount>
     </value>
   </Operation>
   <Operation Class="PatchOperationReplace">
@@ -159,8 +166,8 @@
         <MaxHitPoints>100</MaxHitPoints>
         <WorkToMake>4300</WorkToMake>
         <Mass>0.8</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46 </StuffEffectMultiplierInsulation_Cold>
         <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>3.5</EquipDelay>
       </statBases>
@@ -173,20 +180,26 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_RidingHabit"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
   <!-- Gunmar_Apparel_SimpleDress -->
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>85</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/statBases</xpath>
     <value>
       <statBases>
         <MaxHitPoints>100</MaxHitPoints>
-        <WorkToMake>3200</WorkToMake>
-        <Mass>0.75</Mass>
-        <StuffEffectMultiplierArmor>0.2</StuffEffectMultiplierArmor>
-        <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
         <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
         <EquipDelay>3.5</EquipDelay>
       </statBases>
@@ -196,7 +209,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_SimpleDress"]/thingCategories</xpath>
     <value>
       <thingCategories>
-        <li>LemonSkin_IndustrialApparel</li>
+        <li>LemonSkin_VanityApparel</li>
       </thingCategories>
     </value>
   </Operation>
@@ -266,7 +279,8 @@
   </Operation>
   <!-- Gunmar_Apparel_Smoking_Jacket -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="Gunmar_Apparel_Smoking_Jacket"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>5</Crafting>
     </value>
@@ -370,7 +384,8 @@
   </Operation>
   <!-- Gunmar_Apparel_BpWaistcoat - bulletproof waistcoat -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>4</Crafting>
     </value>
@@ -441,6 +456,22 @@
       </researchPrerequisites>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]/apparel/tags</xpath>
+    <value>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+      </tags>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]</xpath>
+    <value>
+      <tradeTags>
+        <li>Armor</li>
+      </tradeTags>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationAttributeSet">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_BpWaistcoat"]</xpath>
     <attribute>ParentName</attribute>
@@ -451,7 +482,8 @@
   </Operation>
   <!-- Gunmar_Apparel_Soldier_Coat -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Coat"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="Gunmar_Apparel_Soldier_Coat"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>5</Crafting>
     </value>
@@ -503,7 +535,8 @@
   </Operation>
   <!-- Gunmar_Apparel_Hussar_Jacket -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_Hussar_Jacket"]/recipeMaker/skillRequirements/Crafting</xpath>
+    <xpath>
+      Defs/ThingDef[defName="Gunmar_Apparel_Hussar_Jacket"]/recipeMaker/skillRequirements/Crafting</xpath>
     <value>
       <Crafting>5</Crafting>
     </value>
@@ -600,11 +633,17 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]/recipeMaker/skillRequirements</xpath>
   </Operation>
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>45</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]/statBases</xpath>
     <value>
       <statBases>
         <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1200</WorkToMake>
+        <WorkToMake>1800</WorkToMake>
         <Mass>0.07</Mass>
         <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
         <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
@@ -617,8 +656,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHead"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialHeadgear</li>
-        <li>LemonSkin_WorkwearHeadgear</li>
+        <li>LemonSkin_VanityHeadgear</li>
       </thingCategories>
     </value>
   </Operation>
@@ -627,11 +665,17 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]/recipeMaker/skillRequirements</xpath>
   </Operation>
   <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]/costStuffCount</xpath>
+    <value>
+      <costStuffCount>45</costStuffCount>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]/statBases</xpath>
     <value>
       <statBases>
         <MaxHitPoints>80</MaxHitPoints>
-        <WorkToMake>1200</WorkToMake>
+        <WorkToMake>1800</WorkToMake>
         <Mass>0.07</Mass>
         <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
         <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
@@ -644,8 +688,7 @@
     <xpath>Defs/ThingDef[defName="Gunmar_Apparel_MaidHeadb"]</xpath>
     <value>
       <thingCategories Inherit="False">
-        <li>LemonSkin_IndustrialHeadgear</li>
-        <li>LemonSkin_WorkwearHeadgear</li>
+        <li>LemonSkin_VanityHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

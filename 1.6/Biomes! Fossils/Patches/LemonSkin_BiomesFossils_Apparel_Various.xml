@@ -2,26 +2,17 @@
 <Patch>
   <!-- BMT_Apparel_MascotOutfit -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="BMT_Apparel_MascotOutfit"]/thingCategories</xpath>
-    <value>
-      <thingCategories>
-        <li>LemonSkin_IndustrialApparel</li>
-      </thingCategories>
-    </value>
-  </Operation>
-  <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="BMT_Apparel_MascotOutfit"]/techLevel</xpath>
     <value>
       <techLevel>Industrial</techLevel>
     </value>
   </Operation>
-  <!-- Plushies -->
-  <Operation Class="PatchOperationAdd">
-    <xpath>Defs/ThingDef[@Name="BMT_PlushiesSculptureBase"]/recipeMaker</xpath>
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="BMT_Apparel_MascotOutfit"]/thingCategories</xpath>
     <value>
-      <researchPrerequisites>
-        <li>BMT_Paleontology</li>
-      </researchPrerequisites>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_Costume</li>
+      </thingCategories>
     </value>
   </Operation>
 </Patch>

@@ -377,10 +377,62 @@ A full spreadsheet can be seen here: https://docs.google.com/spreadsheets/d/e/2P
 
 ## TODO - Other:
 * Vanilla Apparel Expanded - Accessories
-* Costumes - Add a Costume category, balance all costumes to be equivalent in stats to t-shirt + pants. These provide no stat bonuses.
-* Vanity Items - Add a Vanity category, balance all vanity to be equivalent in stats to button-down shirt + pants. These provide no stat bonuses.
+* Costumes - Add a Costume category, balance all costumes to be equivalent in stats to t-shirt + pants with worse armour. These provide no stat bonuses. Headgear provides no armour and basically no insulation.
+``` 
+    <!-- Costume - Torso -->
+    <costStuffCount>80</costStuffCount>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>3200</WorkToMake>
+        <Mass>0.75</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.42</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+    </statBases>
+
+    <!-- Headdress stat bases -->
+    <costStuffCount>40</costStuffCount>
+    <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1200</WorkToMake>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.1</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.1</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+```
+* Vanity Items - Add a Vanity category, balance all vanity to be equivalent in stats to button-down shirt + pants with worse armour. These provide no stat bonuses. Headgear provides no armour and basically no insulation.
+``` 
+    <!-- Dresses -->
+    <costStuffCount>85</costStuffCount>
+    <statBases>
+        <MaxHitPoints>100</MaxHitPoints>
+        <WorkToMake>4300</WorkToMake>
+        <Mass>0.8</Mass>
+        <StuffEffectMultiplierArmor>0.05</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.46</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.3</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>3.5</EquipDelay>
+    </statBases>
+
+    <!-- Headdress stat bases -->
+    <costStuffCount>45</costStuffCount>
+    <statBases>
+        <MaxHitPoints>80</MaxHitPoints>
+        <WorkToMake>1800</WorkToMake>
+        <Mass>0.07</Mass>
+        <StuffEffectMultiplierArmor>0.0</StuffEffectMultiplierArmor>
+        <StuffEffectMultiplierInsulation_Cold>0.0</StuffEffectMultiplierInsulation_Cold>
+        <StuffEffectMultiplierInsulation_Heat>0.0</StuffEffectMultiplierInsulation_Heat>
+        <EquipDelay>0.8</EquipDelay>
+      </statBases>
+```
 * Move shields to appropriate armour categories
 * Sort out utilities into appropriate categories
+* Add support for CeleTech Arsenal MKIII
+* Add support for Rimsenal: Murder Diversified
 
 # Bug Fixes
 * Fixed name capitalisations for a bunch of items in both VE and MO

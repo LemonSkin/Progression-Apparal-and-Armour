@@ -12,12 +12,12 @@
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/*[recipeMaker/recipeUsers/li="UNA_DressTailoringBench"]/recipeMaker</xpath>
     <value>
-    <recipeMaker>
-      <recipeUsers Inherit="False">
-        <li>Ferny_VanityTable</li>
-      </recipeUsers>
-      <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
-    </recipeMaker>
+      <recipeMaker>
+        <recipeUsers Inherit="False">
+          <li>Ferny_VanityTable</li>
+        </recipeUsers>
+        <researchPrerequisite Inherit="False">Ferny_VanityTable</researchPrerequisite>
+      </recipeMaker>
     </value>
   </Operation>
 

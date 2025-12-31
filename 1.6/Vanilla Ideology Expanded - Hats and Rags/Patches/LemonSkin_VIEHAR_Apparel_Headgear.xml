@@ -424,6 +424,14 @@
       </value>
     </nomatch>
   </Operation>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_HorseMask"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_PrisonerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
   <!-- VIEHAR_Apparel_MilitaryCap -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_MilitaryCap"]/costStuffCount</xpath>
@@ -552,7 +560,8 @@
   <Operation Class="PatchOperationConditional">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
     <match Class="PatchOperationReplace">
-      <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
+      <xpath>
+        Defs/ThingDef[defName="VIEHAR_Apparel_SpikedSkullcap"]/recipeMaker/researchPrerequisites</xpath>
       <value>
         <researchPrerequisite>LemonSkin_RusticClothing</researchPrerequisite>
       </value>

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <Operation Class="PatchOperationAdd">
+  <!-- Prisoner apparel for truly fucked up colonies -->
+  <!-- <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VIEHAR_Apparel_HorseMask"]</xpath>
     <value>
       <recipeMaker>
@@ -10,5 +11,5 @@
         <researchPrerequisite Inherit="False">Ferny_CostumingTable</researchPrerequisite>
       </recipeMaker>
     </value>
-  </Operation>
+  </Operation> -->
 </Patch>
