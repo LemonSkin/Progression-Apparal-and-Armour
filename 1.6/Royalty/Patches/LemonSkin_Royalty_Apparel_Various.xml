@@ -9,12 +9,25 @@
       </thingCategories>
     </value>
   </Operation>
+
+
   <!-- ApparelArmorHelmetCataphractBase -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[@Name="ApparelArmorHelmetCataphractBase"]</xpath>
     <value>
       <thingCategories Inherit="False">
         <li>LemonSkin_SpacerArmorHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_Gunlink -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_Gunlink"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
       </thingCategories>
     </value>
   </Operation>

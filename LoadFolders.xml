@@ -3,6 +3,8 @@
   <v1.6>
     <!-- For rebalances -->
     <li IfModActive="vanillaexpanded.gravship">1.6/Vanilla Gravship Expanded - Chapter 1</li>
+    <li IfModActive="det.boglegs">1.6/Det's Xenotypes - Boglegs</li>
+    <li IfModActive="det.halffoot">1.6/Det's Xenotypes - Half-foot</li>
     <li IfModActive="det.brawnum">1.6/Det's Xenotypes - Brawnum</li>
     <li IfModActive="det.venators">1.6/Det's Xenotypes - Venators</li>
     <li IfModActive="det.avaloi">1.6/Det's Xenotypes - Avaloi</li>

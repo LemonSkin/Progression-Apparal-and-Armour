@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Apparel_AirwireHeadset -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_AirwireHeadset"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_ArrayHeadset -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_ArrayHeadset"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+
+
+  <!-- Apparel_IntegratorHeadset -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/ThingDef[defName="Apparel_IntegratorHeadset"]</xpath>
+    <value>
+      <thingCategories Inherit="False">
+        <li>LemonSkin_SpacerHeadgear</li>
+      </thingCategories>
+    </value>
+  </Operation>
+</Patch>
