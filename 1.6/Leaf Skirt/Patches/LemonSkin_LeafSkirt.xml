@@ -2,7 +2,7 @@
 <Patch>
   <!-- LeafSkirt -->
   <Operation Class="PatchOperationReplace">
-    <xpath>Defs/ThingDef[defName="Bandagewraps_Bodywrap"]/statBases</xpath>
+    <xpath>Defs/ThingDef[defName="LeafSkirt"]/statBases</xpath>
     <value>
       <statBases>
         <Insulation_Cold>0</Insulation_Cold>
