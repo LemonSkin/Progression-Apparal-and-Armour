@@ -9,6 +9,12 @@
       </thingCategories>
     </value>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="Dankpyon_Apparel_Gambeson"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Gambeson"]</xpath>
+    </match>
+  </Operation>
   <!-- VAE_Apparel_QuiltedVest -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_QuiltedVest"]/thingCategories</xpath>
@@ -17,6 +23,12 @@
         <li>LemonSkin_MedievalArmor</li>
       </thingCategories>
     </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Leather_Tunic"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_QuiltedVest"]</xpath>
+    </match>
   </Operation>
   <!-- VAE_Apparel_LightPlateArmor -->
   <Operation Class="PatchOperationReplace">
@@ -92,6 +104,12 @@
         <li>LemonSkin_MedievalArmor</li>
       </thingCategories>
     </value>
+  </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Apparel_Breast_Plate"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="VAE_Apparel_Chestplate"]</xpath>
+    </match>
   </Operation>
   <!-- VAE_Apparel_Chainmail -->
   <Operation Class="PatchOperationReplace">

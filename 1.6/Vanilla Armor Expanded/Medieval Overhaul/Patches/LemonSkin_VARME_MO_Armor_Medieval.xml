@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
   <!-- Gambeson -->
-  <Operation Class="PatchOperationRemove">
+  <!-- <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Gambeson"]</xpath>
-  </Operation>
+  </Operation> -->
   <!-- Quilted Vest -->
-  <Operation Class="PatchOperationRemove">
+  <!-- <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_QuiltedVest"]</xpath>
-  </Operation>
+  </Operation> -->
   <!-- Light Plate Armor -->
   <Operation Class="PatchOperationAdd">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_LightPlateArmor"]/recipeMaker/recipeUsers</xpath>
@@ -25,9 +25,9 @@
     </value>
   </Operation>
   <!-- Chestplate -->
-  <Operation Class="PatchOperationRemove">
+  <!-- <Operation Class="PatchOperationRemove">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Chestplate"]</xpath>
-  </Operation>
+  </Operation> -->
   <!-- Chainmail -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Apparel_Chainmail"]/label</xpath>

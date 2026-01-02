@@ -35,6 +35,34 @@
       </thingCategories>
     </value>
   </Operation>
+
+  <!-- MO Compatibility -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Royalty</li>
+      <li>Medieval Overhaul</li>
+    </mods>
+    <match Class="PatchOperationFindMod">
+      <mods>
+        <li>Full Armor - Hands and Feet</li>
+        <li>Combat Extended</li>
+      </mods>
+      <nomatch Class="PatchOperationReplace">
+        <xpath>/Defs/PawnKindDef[@Name="ImperialFighterBase"]/apparelRequired/li[.="VAE_Footwear_PlateBoots"]</xpath>
+        <value>
+          <li>DankPyon_Footwear_BootsPlate</li>
+        </value>
+      </nomatch>
+    </match>
+  </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Footwear_BootsPlate"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="VAE_Footwear_PlateBoots"]</xpath>
+    </match>
+  </Operation>
+
   <!-- VAE_Footwear_MarineBoots -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Footwear_MarineBoots"]/thingCategories</xpath>

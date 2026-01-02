@@ -31,6 +31,12 @@
       </thingCategories>
     </value>
   </Operation>
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[@Name="TACTICOOL_BalaclavaBase"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="VAE_Headgear_Balaclava"]</xpath>
+    </match>
+  </Operation>
   <!-- VAE_Headgear_GhillieHood -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Headgear_GhillieHood"]/thingCategories</xpath>

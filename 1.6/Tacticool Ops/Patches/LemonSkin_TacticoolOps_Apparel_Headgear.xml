@@ -187,13 +187,6 @@
       </equippedStatOffsets>
     </value>
   </Operation>
-  <!-- Remove VARME balaclava -->
-  <Operation Class="PatchOperationConditional">
-    <xpath>Defs/ThingDef[defName="VAE_Headgear_Balaclava"]</xpath>
-    <match Class="PatchOperationRemove">
-      <xpath>Defs/ThingDef[defName="VAE_Headgear_Balaclava"]</xpath>
-    </match>
-  </Operation>
   <!-- MESH CAP -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="TACTICOOL_MeshCap"]/costStuffCount</xpath>

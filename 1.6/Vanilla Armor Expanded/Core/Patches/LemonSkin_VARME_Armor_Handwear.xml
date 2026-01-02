@@ -43,6 +43,15 @@
       </thingCategories>
     </value>
   </Operation>
+
+  <Operation Class="PatchOperationConditional">
+    <xpath>Defs/ThingDef[defName="DankPyon_Handwear_GlovesPlate"]</xpath>
+    <match Class="PatchOperationRemove">
+      <xpath>Defs/ThingDef[defName="VAE_Handwear_PlateGloves"]</xpath>
+    </match>
+  </Operation>
+
+
   <!-- VAE_Handwear_MarineGloves -->
   <Operation Class="PatchOperationReplace">
     <xpath>Defs/ThingDef[defName="VAE_Handwear_MarineGloves"]/thingCategories</xpath>
