@@ -19,7 +19,7 @@
     <xpath>Defs/ThingDef[@Name="OCARINA_PrisonerJumpsuitBase"]/equippedStatOffsets</xpath>
     <value>
       <equippedStatOffsets>
-        <GeneralLaborSpeed>0.5</GeneralLaborSpeed>
+        <GeneralLaborSpeed>0.05</GeneralLaborSpeed>
         <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.1</SlaveSuppressionOffset>
       </equippedStatOffsets>
     </value>
