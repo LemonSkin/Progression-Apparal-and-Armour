@@ -123,4 +123,14 @@
     </value>
   </Operation> -->
 
+
+  <!-- HOT MILK -->
+  <Operation Class="PatchOperationReplace">
+    <xpath>Defs/ThingDef[defName="PonHotMilk"]/label</xpath>
+    <value>
+      <label>hot milk</label>
+    </value>
+  </Operation>
+
+
 </Patch>
